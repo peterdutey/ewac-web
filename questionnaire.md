@@ -3,6 +3,7 @@ layout: full
 title: EWAC questionnaire
 description: Estimate your alcohol consumption using the validated EWAC tool
 hide_description: true
+disable_anchors: true
 ---
 
 
@@ -58,4 +59,15 @@ hide_description: true
 ## How often have you had 6 or more units on a single occasion in the last year?
 
 
-(c) University of Southampton 2020
+
+
+<div id="ewac-results-box" class="bd-callout bd-callout-info">
+<h4 id="results-header">Your results</h4>
+<p>Your answers suggest you may be consuming an average:</p>
+<div id="ewac-results" class="d-flex">
+<div class="p-2 flex-grow-1" align="center">X UK units/week</div>
+<div class="align-bottom"> or </div>
+<div class="p-2 flex-grow-1" align="center">Y grams/week</div>
+</div>
+</div>
+

@@ -45,3 +45,90 @@ h1,h2,h3,.h1,.h2,.h3,.h4 {
   font-family: "Hind";
   font-weight: 600;
 }
+
+div#ewac-results.d-flex div.p-2 {
+ font-size: x-large;
+}
+
+.read-more {
+  margin-top:2rem;
+  margin-bottom:3rem
+}
+
+.card .read-more {
+  color: #003087;
+  margin-top:auto;
+  margin-bottom:0;
+  text-align:right;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.read-more::after {
+  content: "\f0a9";
+  font-family: "Font Awesome 5 Free";
+  speak:none;
+  font-style:normal;
+  font-weight: 900;
+  display: inline-block;
+  font-variant:normal;
+  text-transform:none;
+  line-height:1;
+  font-size:smaller;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale
+}
+
+.bd-callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #eee;
+  border-left-width: .25rem;
+  border-radius: .25rem
+}
+
+.bd-callout h4 {
+  margin-top: 0;
+  margin-bottom: .25rem
+}
+
+.bd-callout p:last-child {
+  margin-bottom: 0
+}
+
+.bd-callout code {
+  border-radius: .25rem
+}
+
+.bd-callout+.bd-callout {
+  margin-top: -.25rem
+}
+
+.bd-callout-info {
+  border-left-color: #5bc0de
+}
+
+.bd-callout-info h4 {
+  color: #5bc0de
+}
+
+.bd-callout-warning {
+  border-left-color: #f0ad4e
+}
+
+.bd-callout-warning h4 {
+  color: #f0ad4e
+}
+
+.bd-callout-danger {
+  border-left-color: #d9534f
+}
+
+.bd-callout-danger h4 {
+  color: #d9534f
+}
