@@ -23,7 +23,7 @@ description: Estimate your alcohol consumption using a validated tool
   </div>
   <div class="col-md-3 bg-light card">
     <div class="card-body">
-      <h5 class="card-title">EWAC web app</h5>
+      <h5 class="card-title">EWAC web app <span class="badge badge-warning">experimental</span></h5>
       <p>EWAC is available to use in an easy app on this website.</p>
     <div class="read-more">
        <a href="questionnaire">Use the EWAC</a>

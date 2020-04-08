@@ -1,7 +1,7 @@
 ---
 layout: full
-title: EWAC questionnaire
-description: Estimate your alcohol consumption using the validated EWAC tool
+title: EWAC questionnaire 
+description: Estimate your alcohol consumption using the validated EWAC tool <span class="badge badge-warning">experimental</span>
 hide_description: true
 disable_anchors: true
 ---
