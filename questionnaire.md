@@ -1,10 +1,48 @@
 ---
-layout: full
+layout: page
 title: EWAC questionnaire 
 description: Estimate your alcohol consumption using the validated EWAC tool <span class="badge badge-warning">experimental</span>
 hide_description: true
 disable_anchors: true
 ---
+<style>
+.unit-def {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width:800px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 1.5rem !important;
+    margin-top: 200px !important;
+    margin-bottom: 50px !important;
+}
+.btn-toolbar {
+ margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.screen1 {
+margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+</style>
+
+<div class="screen1">
+<p class="lead">To estimate your weekly alcohol consumption, please answer these 
+         three questions about the alcohol you have drunk <strong>in the last six months</strong>.
+         </p> 
+<div class="btn-start btn-group mr-2" role="group">
+    <button type="button" class="btn btn-primary">Start</button>
+</div>
+</div>
+
 
 
 ## How often do you have a drink containing alcohol?
@@ -34,7 +72,7 @@ disable_anchors: true
 
 <div id="audit2" class="btn-toolbar" role="toolbar" aria-label="AUDIT-2">
   <div class="btn-group mr-2" role="group">
-    <button type="button" class="btn btn-secondary">1 to 2</button>
+    <button type="button" class="btn btn-secondary">0 to 2</button>
   </div>
   <div class="btn-group mr-2" role="group">
     <button type="button" class="btn btn-secondary">3 to 4</button>
@@ -56,13 +94,36 @@ disable_anchors: true
   </div>
 </div>
 
+<img src="assets/img/units_definition.svg" alt="Unit definitions"
+  class="unit-def">
+
 ## How often have you had 6 or more units on a single occasion in the last year?
 
+<div id="audit3" class="btn-toolbar" role="toolbar" aria-label="AUDIT-3">
+  <div class="btn-group mr-2" role="group">
+    <button type="button" class="btn btn-secondary">Never</button>
+  </div>
+  <div class="btn-group mr-2" role="group">
+    <button type="button" class="btn btn-secondary">Less than monthly</button>
+  </div>
+  <div class="btn-group mr-2" role="group">
+    <button type="button" class="btn btn-secondary">Monthly</button>
+  </div>  
+  <div class="btn-group mr-2" role="group">
+    <button type="button" class="btn btn-secondary">Weekly</button>
+  </div>  
+  <div class="btn-group mr-2" role="group">
+    <button type="button" class="btn btn-secondary">Daily or almost daily</button>
+  </div>
+</div>
+<img src="assets/img/units_definition.svg" alt="Unit definitions"
+  class="unit-def">
 
 
+<br><br><br><br>
 
 <div id="ewac-results-box" class="bd-callout bd-callout-info">
-<h4 id="results-header">Your results</h4>
+<h3 id="results-header">Your results</h3>
 <p>Your answers suggest you may be consuming an average:</p>
 <div id="ewac-results" class="d-flex">
 <div class="p-2 flex-grow-1" align="center">X UK units/week</div>
