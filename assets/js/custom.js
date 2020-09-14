@@ -92,6 +92,10 @@ $(document).ready(function () {
         $('.questionnaire_step .btn-toolbar button').removeClass('active');
         $('.btn-group-prev').hide();
         $('.screen1').fadeIn();
-
     });
 });
+window.onpageshow = function(event) {
+    if (event.persisted) {
+        window.location.reload()
+    }
+};
