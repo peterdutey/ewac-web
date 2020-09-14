@@ -87,6 +87,353 @@ div#ewac-results.d-flex div.p-2 {
   -moz-osx-font-smoothing:grayscale
 }
 
+
+.unit-def {
+  display: block;
+  margin: 50px auto;
+  width: 80%;
+  height: auto;
+}
+
+h2 {
+  font-size: 1.5rem !important;
+  margin-top: 0 !important;
+  margin-bottom: 50px !important;
+}
+
+.btn-toolbar {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+/* Iryna's CSS */
+.layout-page__main {
+  min-height: calc(100vh - 390px);
+}
+
+.questionary_scope {
+  padding: 70px 0;
+}
+
+.questionary_scope .questionnaire_step h2 {
+  margin-bottom: 0 !important;
+}
+
+.questionary_scope .questionnaire_step .btn-toolbar {
+  width: 100%;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin: 30px 0 0 0;
+}
+
+.questionary_scope .questionnaire_step .btn-group {
+  display: flex !important;
+  flex: 1 1 0px;
+}
+
+.questionary_scope .screen1 .notice {
+  margin: 16px 0 0 0;
+}
+
+.questionary_scope .screen1 .notice strong {
+  font-weight: bold;
+}
+
+.questionary_scope .screen1 .btn-group {
+  width: 160px;
+}
+
+.questionary_scope .btn-group:last-child {
+  margin-right: 0 !important;
+}
+
+.questionary_scope .btn-group button {
+  background: #002a88;
+  border: none !important;
+  min-height: 60px;
+}
+
+.questionary_scope .btn-group:hover button, .questionary_scope .btn-group button.active {
+  background-color: #007fe0 !important;
+}
+
+.questionnaire_steps {
+  display: none;
+}
+
+.questionnaire_steps .questionnaire_step {
+  display: none;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s linear;
+  -o-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+  padding-top: 50px;
+}
+
+.questionnaire_steps.active {
+  display: flex;
+  flex-direction: column;
+}
+
+.questionnaire_step.active {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  -webkit-transition: opacity 0.2s linear;
+  -o-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+}
+
+.questionnaire_step_navigation {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 60px;
+}
+
+.questionnaire_step_navigation .btn-group {
+  position: absolute;
+  top: 0;
+  margin: 0 !important;
+}
+
+.questionnaire_step_navigation .btn, .btn-reset .btn {
+  width: 120px;
+}
+
+
+.questionnaire_step_navigation .btn-group-prev {
+  left: 0;
+  display: none;
+}
+
+
+.questionnaire_results {
+  display: none;
+}
+
+.questionnaire_results #ewac-results-box {
+  margin-top: 0;
+  border-left-color: #002a88 !important;
+}
+
+#ewac-results {
+  align-items: center;
+}
+
+.results_ukunits, .results_grams {
+  color: #002a88 !important;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.unit-def-mob {
+  display: none !important;
+}
+
+.btn-reset {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 30px;
+}
+
+.progress_bar {
+  position: absolute;
+  max-width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 16px;
+}
+
+.progress_bar span {
+  width: 16px;
+  height: 16px;
+  border-radius: 16px;
+  border: 1px solid #002a88;
+  opacity: 0.7;
+  margin: 0 3px;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.progress_bar span.active {
+  opacity: 1;
+  background: #002a88;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.auditc {
+  margin: 16px 0 0 0;
+}
+
+.auditc span {
+  color: #002a88;
+  font-weight: bold;
+}
+
+.img_wrap_main {
+  width: 80%;
+  margin: 15px auto 0 auto;
+  flex-direction: column;
+}
+
+.img_units_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.img_wrap_main p {
+  font-size: 18px;
+  margin: 15px 0 0 0;
+}
+
+.img_units_container .img_wrap {
+  width: calc(100% / 7);
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+  align-items: center;
+}
+
+.img_units_container .img_wrap img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.img_units_container .img_wrap .img_holder {
+  width: 50px;
+  max-width: 100%;
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.img_units_container .img_wrap span {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+@media (max-width: 991px) {
+  .questionary_scope .btn-group button {
+    padding: 6px !important;
+  }
+
+  .questionary_scope .questionnaire_step .btn-group button {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .unit-def, .img_wrap_main {
+    margin: 30px auto;
+    width: 100%;
+    height: auto;
+  }
+  .img_wrap_main p {
+    font-size: 16px;
+  }
+  .img_units_container .img_wrap {
+    padding: 0 5px;
+  }
+  .img_units_container .img_wrap span {
+    ont-size: 12px;
+    line-height: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .questionary_scope {
+    padding: 15px 0;
+  }
+
+  .questionary_scope .questionnaire_step .btn-toolbar {
+    flex-wrap: wrap;
+    flex: initial;
+  }
+
+  .questionary_scope .questionnaire_step h2 {
+    font-size: 18px !important;
+  }
+
+  .questionary_scope .questionnaire_step .btn-group {
+    width: calc((100% - 20px) / 3) !important;
+    margin: 5px 10px 5px 0 !important;
+    flex: initial;
+  }
+
+  .questionary_scope .questionnaire_step .btn-group:nth-child(3n) {
+    margin: 5px 0 !important;
+  }
+
+  .unit-def {
+    display: none !important;
+  }
+
+  .unit-def-mob {
+    display: block !important;
+    width: 100%;
+    margin: 30px 0;
+    height: auto;
+  }
+
+  #ewac-results {
+    flex-direction: column;
+  }
+
+  .progress_bar {
+    left: auto;
+    justify-content: flex-end;
+  }
+  .img_units_container {
+    justify-content: center;
+  }
+  .img_units_container .img_wrap {
+    width: calc(100% / 3);
+  }
+}
+
+
 .bd-callout {
   padding: 1.25rem;
   margin-top: 1.25rem;

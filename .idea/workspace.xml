@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a9c7df3-b731-4690-b48f-dfbd4c05f57a" name="Default Changelist" comment="add resources page">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/questionnaire.md" beforeDir="false" afterPath="$PROJECT_DIR$/questionnaire.md" afterDir="false" />
     </list>
@@ -20,6 +20,11 @@
         <option value="peterdutey &lt;46346161+peterdutey@users.noreply.github.com&gt;" />
         <option value="p.dutey-magni@ucl.ac.uk" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dc-version" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -53,25 +58,25 @@
   <component name="RubyModuleManagerSettings">
     <option name="blackListedRootsPaths">
       <list>
-        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/public_suffix-4.0.4" />
-        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rouge-3.17.0" />
-        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-inotify-0.10.1" />
-        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/safe_yaml-1.0.5" />
-        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-fsevent-0.10.3" />
-        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/mercenary-0.3.6" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/ffi-1.12.2" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6" />
-        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/pathutil-0.16.2" />
-        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/jekyll-seo-tag-2.6.1" />
-        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/colorator-1.1.0" />
-        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-fsevent-0.10.3" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/mercenary-0.3.6" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-inotify-0.10.1" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/safe_yaml-1.0.5" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/public_suffix-4.0.4" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rouge-3.17.0" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/em-websocket-0.5.1" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/forwardable-extended-2.6.0" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/jekyll-feed-0.13.0" />
-        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/em-websocket-0.5.1" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/colorator-1.1.0" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/pathutil-0.16.2" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/jekyll-seo-tag-2.6.1" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/http_parser.rb-0.6.0" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/sassc-2.2.1" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/jekyll-4.0.0/lib/theme_template" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/terminal-table-1.8.0" />
-        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/sassc-2.2.1" />
-        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/http_parser.rb-0.6.0" />
       </list>
     </option>
   </component>
@@ -80,6 +85,7 @@
       <command value="bundle install" />
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6a9c7df3-b731-4690-b48f-dfbd4c05f57a" name="Default Changelist" comment="" />
@@ -92,6 +98,7 @@
       <workItem from="1586331808124" duration="353000" />
       <workItem from="1586332186183" duration="2659000" />
       <workItem from="1587476249463" duration="4752000" />
+      <workItem from="1600098971595" duration="1285000" />
     </task>
     <task id="LOCAL-00001" summary="initial jekyll install">
       <created>1586096428591</created>
@@ -132,7 +139,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial jekyll install" />
@@ -143,47 +150,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="licensing" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="294" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586332043244">
-      <screen x="0" y="0" width="1680" height="1020" />
+    <state x="378" y="407" width="513" height="209" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600099310881">
+      <screen x="0" y="0" width="1280" height="1020" />
     </state>
-    <state x="294" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1020@0.0.1680.1020" timestamp="1586332043244" />
-    <state x="478" y="289" width="714" height="441" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586334123268">
-      <screen x="0" y="0" width="1680" height="1020" />
-    </state>
-    <state x="478" y="289" width="714" height="441" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1020@0.0.1680.1020" timestamp="1586334123268" />
-    <state x="368" y="17" width="1073" height="987" key="CommitChangelistDialog2" timestamp="1586334549789">
-      <screen x="0" y="0" width="1680" height="1020" />
-    </state>
-    <state x="368" y="17" width="1073" height="987" key="CommitChangelistDialog2/0.0.1680.1020@0.0.1680.1020" timestamp="1586334549789" />
-    <state x="421" y="17" width="1068" height="1015" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1586201981663" />
-    <state x="570" y="210" width="530" height="599" key="FileChooserDialogImpl" timestamp="1586333410818">
-      <screen x="0" y="0" width="1680" height="1020" />
-    </state>
-    <state x="570" y="210" width="530" height="599" key="FileChooserDialogImpl/0.0.1680.1020@0.0.1680.1020" timestamp="1586333410818" />
-    <state x="212" y="56" width="1256" height="906" key="SettingsEditor" timestamp="1586333412292">
-      <screen x="0" y="0" width="1680" height="1020" />
-    </state>
-    <state x="212" y="56" width="1256" height="906" key="SettingsEditor/0.0.1680.1020@0.0.1680.1020" timestamp="1586333412292" />
-    <state x="398" y="191" width="1000" height="655" key="Vcs.Push.Dialog.v2" timestamp="1586334554006">
-      <screen x="0" y="0" width="1680" height="1020" />
-    </state>
-    <state x="398" y="191" width="1000" height="655" key="Vcs.Push.Dialog.v2/0.0.1680.1020@0.0.1680.1020" timestamp="1586334554006" />
-    <state x="455" y="197" width="1000" height="655" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1586201843693" />
-    <state x="539" y="313" key="com.intellij.ide.util.TipDialog" timestamp="1586190654067">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="539" y="313" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586190654067" />
-    <state x="510" y="0" width="899" height="1050" key="find.popup" timestamp="1586101871350">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="510" y="0" width="899" height="1050" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1586101871350" />
-    <state x="420" y="227" width="840" height="1034" key="run.anything.popup" timestamp="1586332368393">
-      <screen x="0" y="0" width="1680" height="1020" />
-    </state>
-    <state x="420" y="227" width="840" height="1034" key="run.anything.popup/0.0.1680.1020@0.0.1680.1020" timestamp="1586332368393" />
-    <state x="539" y="15" width="840" height="1034" key="search.everywhere.popup" timestamp="1586116650365">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="539" y="15" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1586116650365" />
+    <state x="378" y="407" width="513" height="209" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1280.0.1680.1050/0.0.1280.1020@0.0.1280.1020" timestamp="1600099310881" />
+  </component>
+  <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
+    <option name="sizePresets">
+      <list>
+        <SizePreset>
+          <option name="caption" value="Phone" />
+          <option name="height" value="568" />
+          <option name="width" value="320" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Tablet" />
+          <option name="height" value="1024" />
+          <option name="width" value="768" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Desktop" />
+          <option name="height" value="900" />
+          <option name="width" value="1440" />
+        </SizePreset>
+      </list>
+    </option>
   </component>
 </project>

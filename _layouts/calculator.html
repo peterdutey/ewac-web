@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        {% include head/full.html %}
+        <link href="https://fonts.googleapis.com/css?family=Hind:400,600|Roboto+Slab:300|Lora:400" rel="stylesheet">
+    </head>
+
+    <body class="layout-{{ page.layout }}" data-spy="scroll" data-target="#page-toc" data-offset="0">
+        {% include navigation.html %}
+        {% include masthead.html %}
+
+        {{ content }}
+
+        {% include footer/full.html %}
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="{{ base.url | prepend: site.url }}/assets/js/custom.js"></script>
+    </body>
+</html>
