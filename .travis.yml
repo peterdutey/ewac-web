@@ -7,9 +7,9 @@ before_script:
   - ls -A
   - chmod +x ./scripts/cibuild # or do this locally and commit
 
-install: ./scripts/cibuild
-
-script: ./scripts/minitest/parallel/Rakefile
+script:
+  - ./scripts/cibuild
+  - ./scripts/minitest/parallel/Rakefile
 
 env:
   global:
