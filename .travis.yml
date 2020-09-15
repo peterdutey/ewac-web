@@ -6,11 +6,8 @@ before_script:
   - pwd
   - ls -A
   - chmod +x ./scripts/cibuild # or do this locally and commit
-  - chmod +x ./scripts/minitest/parallel/Rakefile # or do this locally and commit
 
-script:
-  - ./scripts/cibuild
-  - ./scripts/minitest/parallel/Rakefile
+script: ./scripts/cibuild
 
 env:
   global:

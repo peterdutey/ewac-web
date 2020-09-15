@@ -2,5 +2,6 @@
 set -e # halt script on error
 
 bundle exec jekyll build
+rake -t
 bundle exec htmlproofer --empty-alt-ignore ./_site
 

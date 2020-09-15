@@ -3,8 +3,8 @@ require 'rake/testtask'
 require 'parallel'
 require 'json'
 
-@browsers = JSON.parse(File.read('browsers.json'))
-@test_folder = 'test/*_test.rb'
+@browsers = JSON.parse(File.read('./browsers.json'))
+@test_folder = './test/*_test.rb'
 @parallel_limit = ENV['nodes'] || 1
 @parallel_limit = @parallel_limit.to_i
 

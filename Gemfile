@@ -34,3 +34,7 @@ gem "jekyll-remote-theme"
 
 # Proofer
 gem "html-proofer"
+
+# gem "rails"
+gem "selenium-webdriver", "~> 3.141"
+gem "minitest", "~> 5.11"
