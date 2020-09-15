@@ -79,6 +79,7 @@ GEM
       forwardable-extended (~> 2.6)
     public_suffix (4.0.4)
     rainbow (3.0.0)
+    rake (13.0.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -118,6 +119,7 @@ DEPENDENCIES
   minima (~> 2.5)
   minitest (~> 5.11)
   parallel (~> 1.19.2)
+  rake (~> 13.0, >= 13.0.1)
   selenium-webdriver (~> 3.141)
   tzinfo (~> 1.2)
   tzinfo-data

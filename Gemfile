@@ -41,3 +41,4 @@ gem "selenium-webdriver", "~> 3.141"
 gem "minitest", "~> 5.11"
 gem "parallel", "~> 1.19.2"
 gem "json", "~> 2.3.1"
+gem 'rake', '~> 13.0', '>= 13.0.1'
