@@ -40,16 +40,16 @@ class GoogleTest < MiniTest::Test
     @driver.find_element(:css, "#audit1 > .btn-group:nth-child(2) > .btn").click
     @driver.find_element(:css, "#audit2 > .btn-group:nth-child(3) > .btn").click
     @driver.find_element(:css, "#audit3 > .btn-group:nth-child(2) > .btn").click
-    element ewac_result_units = @driver.find_element(:class, "results_ukunits")
+    ewac_result_units = @driver.find_element(:class, "results_ukunits")
     assert_equal(ewac_result_units.text, "1 - 5")
 
     @driver.navigate.to 'http://localhost:4000/resources/'
     @driver.execute_script("history.go(-1)")
     sleep(2000)
 
-    element testDisplayResultsAgain = @driver.find_element(:class,
+    display_results_again = @driver.find_element(:class,
                                                           "questionnaire_results")
-    if testDisplayResultsAgain.displayed?
+    if display_results_again.displayed?
       flunk(msg = 'Result show again after hitting previous button')
     end
   end
