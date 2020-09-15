@@ -21,6 +21,7 @@ class GoogleTest < MiniTest::Test
     capabilities['browser'] = ENV['SELENIUM_BROWSER']
     capabilities['browser_version'] = ENV['SELENIUM_VERSION']
     capabilities['build'] = __FILE__
+    capabilities['browserstack.console'] = 'errors'
     @driver = Selenium::WebDriver.for(:remote,
                                       url: url,
                                       desired_capabilities: capabilities)
@@ -44,8 +45,8 @@ class GoogleTest < MiniTest::Test
     assert_equal(ewac_result_units.text, "1 - 5")
 
     @driver.navigate.to 'http://localhost:4000/resources/'
-    @driver.execute_script("history.go(-1)")
-    sleep(2000)
+    @driver.execute_script("window.history.go(-1)")
+    sleep(2)
 
     display_results_again = @driver.find_element(:class,
                                                           "questionnaire_results")
