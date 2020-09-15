@@ -39,6 +39,9 @@ plugins:
 
 links:
   header:
+    - title: Accessibility
+      icon: universal-access
+      url: /accessibility
     - title: Privacy
       icon: shield-alt
       url: /privacy

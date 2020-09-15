@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
     <head>
+        <div id="skip"><a href="#content">Skip to Main Content</a></div>
         {% include head/full.html %}
         <link href="https://fonts.googleapis.com/css?family=Hind:400,600|Roboto+Slab:300|Lora:400" rel="stylesheet">
     </head>
@@ -9,7 +10,9 @@
         {% include navigation.html %}
         {% include masthead.html %}
 
-        {{ content }}
+        <main id="content" role="main">
+            {{ content }}
+        </main>
 
         {% include footer/full.html %}
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
