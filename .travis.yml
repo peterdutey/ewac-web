@@ -16,9 +16,9 @@ env:
 exclude: [vendor]
 
 addons:
-#  apt:
-#    packages:
-#      - libcurl4-openssl-dev
+  apt:
+    packages:
+      - libcurl4-openssl-dev
   browserstack:
     username: "peterdutey1"
     access_key:
