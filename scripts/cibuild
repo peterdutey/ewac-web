@@ -4,6 +4,6 @@ set -e # halt script on error
 bundle exec jekyll build
 bundle exec jekyll serve --detach
 sleep 3
-rake -t -V
+rake -t
 bundle exec htmlproofer --empty-alt-ignore ./_site
 pkill -f jekyll
