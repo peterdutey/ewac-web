@@ -54,6 +54,7 @@ GEM
       jekyll (>= 3.3, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+    json (2.3.1)
     kramdown (2.1.0)
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
@@ -110,8 +111,10 @@ DEPENDENCIES
   jekyll-docs-theme
   jekyll-feed (~> 0.12)
   jekyll-remote-theme
+  json (~> 2.3.1)
   minima (~> 2.5)
   minitest (~> 5.11)
+  parallel (~> 1.19.2)
   selenium-webdriver (~> 3.141)
   tzinfo (~> 1.2)
   tzinfo-data
