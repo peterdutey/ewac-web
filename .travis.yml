@@ -7,7 +7,9 @@ before_script:
   - ls -A
   - chmod +x ./scripts/cibuild # or do this locally and commit
 
-script: ./scripts/cibuild
+install: ./scripts/cibuild
+
+script: ./scripts/minitest/parallel/Rakefile
 
 env:
   global:
@@ -23,5 +25,6 @@ addons:
     username: "peterdutey1"
     access_key:
       secure: "drP4GGVyO0UAT0DhD/wg3IZX1su479jeWgndjGxnLe2BzORJAf63JgrvLUf+H5XC+SY7+sU8GN7OUOtagrFOoR44ky+aP5y1RamER0lSp+YdutADV7iXQKqF6SS0DXLtnlTIZF9NhBbd2VDOVPHVuKvW70+sP4xlWEb8NOF4UPTYL/fXP2AfYHnMZ+4pcxLzUQUd2vmzdYcEkzKbovSE8IwTVOuavt4z4y2rKsDLnGqEX34B9cW1Q1eoJ4o8E1dQT2SJkBHRH6mZf1cSJeTFWruYu/9BWGad16gby2/2nHJy/EO1eECh67wO7/KqwC3xBYodKJp92+A0Ioa3bDcC4WF8aUDVKKCbFUJag6jaLrUYUhLMeDhGdqreynKJJUzO60ttG811wYaUPC67ZnCIrKHyNYVy7nXXspJLuT9MgXlN9ki1Z7pru9IajKw7faD7uRVUQg71724qXxHthGAaiEqU1RczQ5JSCe0A3kydfKK7f23BO/PHj3XiDpQMdeVTHyWFdJOk4fDChJbfcg4Na9gxOaXdpv5kNrlUW+OCDGCkKMfNeh1u5qWzMmMDDr25Q9aNYI9C9I5w5YxRFtbOwxhkgkiEEJrlLXoO4TpNIqD3KHyTEFlv47eDXOpj/2/Ff66CMYmPYeDDpDmy4Yn4rfniW/iO1UmO9xCiaX6zZQU="
+    app_path: "./_site"
 
 cache: bundler

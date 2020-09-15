@@ -1,0 +1,38 @@
+[
+  {
+    "browser": "chrome",
+    "browser_version": "latest - 1",
+    "os": "Windows",
+    "os_version": "10"
+  },
+  {
+    "browser": "firefox",
+    "browser_version": "latest - 1",
+    "os": "Windows",
+    "os_version": "10"
+  },
+  {
+    "browser": "Internet Explorer",
+    "browser_version": "11",
+    "os": "Windows",
+    "os_version": "10"
+  },
+  {
+    "browser": "safari",
+    "browser_version": "12.1",
+    "os": "OS X",
+    "os_version": "Mojave"
+  },
+  {
+    "browser": "firefox",
+    "browser_version": "80",
+    "os": "OS X",
+    "os_version": "Mojave"
+  },
+  {
+    "browser": "chrome",
+    "browser_version": "85",
+    "os": "OS X",
+    "os_version": "Mojave"
+  }
+]
