@@ -37,22 +37,49 @@ class GoogleTest < MiniTest::Test
 
   def test_parallel
     @driver.navigate.to 'http://localhost:4000/questionnaire/'
+
+    @driver.find_element(:css, ".btn-start > .btn").click
+    @driver.find_element(:css, "#audit1 > .btn-group:nth-child(1) > .btn").click
+    ewac_result_units = @driver.find_element(:class, "results_ukunits")
+    assert_equal(ewac_result_units.text, "0")
+    @driver.find_element(:css, ".btn-reset > button:nth-child(1)").click
+
     @driver.find_element(:css, ".btn-start > .btn").click
     @driver.find_element(:css, "#audit1 > .btn-group:nth-child(2) > .btn").click
     @driver.find_element(:css, "#audit2 > .btn-group:nth-child(3) > .btn").click
     @driver.find_element(:css, "#audit3 > .btn-group:nth-child(2) > .btn").click
     ewac_result_units = @driver.find_element(:class, "results_ukunits")
     assert_equal(ewac_result_units.text, "1 - 5")
+    @driver.find_element(:css, ".btn-reset > button:nth-child(1)").click
+
+    @driver.find_element(:css, ".btn-start > .btn").click
+    @driver.find_element(:css, "#audit1 > .btn-group:nth-child(3) > .btn").click
+    # press previous button
+    @driver.find_element(:css, ".btn-group-prev > button:nth-child(1)").click
+    @driver.find_element(:css, "#audit1 > .btn-group:nth-child(2) > .btn").click
+    @driver.find_element(:css, "#audit2 > .btn-group:nth-child(2) > .btn").click
+    @driver.find_element(:css, "#audit3 > .btn-group:nth-child(1) > .btn").click
+    ewac_result_units = @driver.find_element(:class, "results_ukunits")
+    assert_equal(ewac_result_units.text, "0 - 3")
+    @driver.find_element(:css, ".btn-reset > button:nth-child(1)").click
+
+    @driver.find_element(:css, ".btn-start > .btn").click
+    @driver.find_element(:css, "#audit1 > .btn-group:nth-child(5) > .btn").click
+    @driver.find_element(:css, "#audit2 > .btn-group:nth-child(3) > .btn").click
+    # press previous button
+    @driver.find_element(:css, ".btn-group-prev > button:nth-child(1)").click
+    @driver.find_element(:css, "#audit2 > .btn-group:nth-child(2) > .btn").click
+    @driver.find_element(:css, "#audit3 > .btn-group:nth-child(1) > .btn").click
+    ewac_result_units = @driver.find_element(:class, "results_ukunits")
+    assert_equal(ewac_result_units.text, "13 - 17")
+    @driver.find_element(:css, ".btn-reset > button:nth-child(1)").click
 
     @driver.navigate.to 'http://localhost:4000/resources/'
     @driver.execute_script("window.history.go(-1)")
     sleep(2)
+    display_results_again = @driver.find_element(:class, "questionnaire_results")
+    assert_equal(display_results_again.displayed?, false)
 
-    display_results_again = @driver.find_element(:class,
-                                                          "questionnaire_results")
-    if display_results_again.displayed?
-      flunk(msg = 'Result show again after hitting previous button')
-    end
   end
 
   def teardown
