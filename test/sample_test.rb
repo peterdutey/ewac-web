@@ -35,20 +35,7 @@ class GoogleTest < MiniTest::Test
   end
 
   def test_parallel
-    expected_contents = ''
-    @driver.get 'https://www.keyboardtester.com/tester.html'
-    editor = @driver.find_element :id, 'testarea'
-    25.times do
-      key = (('a'...'z').to_a + ('A'...'Z').to_a).sample
-      expected_contents << key
-      editor.send_keys key
-      actual_contents = editor.attribute("value")
-      raise "Incorrect insertion. Expected: #{expected_contents}\nActual: #{actual_contents}" unless actual_contents == expected_contents
-    end
-  end
-
-  def test_ewac
-    @driver.get 'http://localhost:4000/questionnaire/'
+    @driver.navigate.to 'http://localhost:4000/questionnaire/'
     @driver.find_element(:css, ".btn-start > .btn").click
     @driver.find_element(:css, "#audit1 > .btn-group:nth-child(2) > .btn").click
     @driver.find_element(:css, "#audit2 > .btn-group:nth-child(3) > .btn").click
