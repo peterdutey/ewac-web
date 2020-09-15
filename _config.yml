@@ -41,11 +41,11 @@ links:
   header:
     - title: Privacy
       icon: shield-alt
-      url: privacy
+      url: /privacy
   homepage:
     - title: EWAC calculator
       icon: arrow-circle-right
-      url: questionnaire
+      url: /questionnaire
   footer:
     - title: GitHub
       icon: github
