@@ -10,7 +10,7 @@
    viewBox="0 0 39.999999 140.00001"
    version="1.1"
    id="svg50"
-   sodipodi:docname="Wine bottle.svg"
+   sodipodi:docname="Winebottle.svg"
    width="40"
    height="140"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -45,7 +45,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="4.6377325"
-     inkscape:cx="92.505238"
+     inkscape:cx="46.146376"
      inkscape:cy="72.201367"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -194,12 +194,15 @@
        class="st4"
        id="path1269-7_4_"
        style="fill:#e5c720;stroke-width:0.30427083" />
-    <text
-       y="230.86041"
-       x="127.01958"
-       id="text1545"
-       class="st5 st2 st3"
+    <g
+       aria-label="9"
        transform="scale(1.0145442,0.98566427)"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.36862993px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#401a00;stroke-width:0.26843148">9</text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.36862993px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#401a00;stroke-width:0.26843148"
+       id="text1545">
+      <path
+         d="m 129.86904,228.79999 q 0,0.50069 -0.1101,0.89652 -0.1101,0.39321 -0.32243,0.66584 -0.20971,0.27262 -0.5138,0.41942 -0.30408,0.14418 -0.68942,0.14418 -0.46137,0 -0.79429,-0.1468 v -0.68157 q 0.29622,0.19399 0.71302,0.19399 0.42729,0 0.66846,-0.29098 0.24117,-0.29097 0.24379,-0.84147 l -0.0157,-0.005 q -0.24903,0.36962 -0.75758,0.36962 -0.23069,0 -0.42729,-0.0865 -0.19399,-0.0865 -0.33816,-0.23855 -0.14156,-0.15466 -0.22282,-0.36699 -0.0786,-0.21234 -0.0786,-0.46661 0,-0.29622 0.097,-0.54001 0.097,-0.24379 0.27,-0.41942 0.17564,-0.17564 0.41943,-0.27001 0.24379,-0.097 0.54001,-0.097 0.3067,0 0.55049,0.12058 0.24379,0.11797 0.41418,0.34341 0.17301,0.22544 0.26214,0.55311 0.0918,0.32768 0.0918,0.74448 z m -0.83623,-0.44039 q 0,-0.14418 -0.0367,-0.27001 -0.0367,-0.12845 -0.10223,-0.2202 -0.0655,-0.0918 -0.15991,-0.14417 -0.0944,-0.055 -0.20709,-0.055 -0.10747,0 -0.19922,0.0472 -0.0891,0.0472 -0.15467,0.13107 -0.0655,0.0813 -0.10223,0.19661 -0.0367,0.11534 -0.0367,0.24903 0,0.1468 0.0367,0.26214 0.0367,0.11272 0.10223,0.19136 0.0682,0.0787 0.16253,0.12059 0.0944,0.0393 0.20971,0.0393 0.1101,0 0.19923,-0.0419 0.0891,-0.0446 0.15204,-0.11797 0.0655,-0.0734 0.0996,-0.17301 0.0367,-0.0996 0.0367,-0.21495 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.36862993px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#401a00;stroke-width:0.26843148"
+         id="path840" />
+    </g>
   </g>
 </svg>

@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -49,7 +49,7 @@
      inkscape:bbox-paths="false"
      inkscape:bbox-nodes="true"
      inkscape:zoom="3.9939076"
-     inkscape:cx="19.265044"
+     inkscape:cx="-34.566948"
      inkscape:cy="46.662922"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -186,14 +186,15 @@
        cx="231.8"
        cy="308.79999"
        r="11.2" />
-    <text
-       style="font-size:20px;font-family:SegoeUI-Bold;fill:#ebebeb"
+    <g
+       aria-label="1"
        transform="translate(226.0586,315.959)"
-       class="st1 st2 st3"
+       style="font-size:20px;font-family:SegoeUI-Bold;fill:#ebebeb"
        id="text1518">
-      <tspan
+      <path
+         d="M 8.125,-14.316406 V 0 H 5.0488281 v -10.839844 q -0.2539062,0.22461 -0.6054687,0.429688 -0.3417969,0.195312 -0.7324219,0.361328 -0.390625,0.1562499 -0.8105469,0.2734374 -0.4199218,0.1074218 -0.8300781,0.15625 v -2.5976564 q 1.2011719,-0.351562 2.265625,-0.898437 1.0644531,-0.546875 1.9238281,-1.201172 z"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold'"
-         id="tspan1641">1</tspan>
-    </text>
+         id="path838" />
+    </g>
   </g>
 </svg>

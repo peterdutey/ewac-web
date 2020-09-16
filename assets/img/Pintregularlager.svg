@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -49,7 +49,7 @@
      inkscape:bbox-paths="false"
      inkscape:bbox-nodes="true"
      inkscape:zoom="5.6482383"
-     inkscape:cx="33.417899"
+     inkscape:cx="-4.6470672"
      inkscape:cy="46.611192"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -164,22 +164,22 @@
       </g>
     </g>
   </g>
+  <circle
+     style="fill:#e5c720;stroke-width:1.14999998"
+     id="path1269-7_1_"
+     class="st4"
+     cx="28.499998"
+     cy="11.500001"
+     r="11.5" />
   <g
-     transform="matrix(3.7795276,0,0,3.7795276,-464.98055,-793.09906)"
-     id="g1728">
-    <circle
-       r="3.0427084"
-       cy="212.8835"
-       cx="130.56673"
-       class="st4"
-       id="path1269-7_1_"
-       style="fill:#e5c720;stroke-width:0.30427083" />
-    <text
-       y="217.77107"
-       x="127.33259"
-       id="text1539"
-       class="st5 st2 st3"
-       transform="scale(1.0145442,0.98566427)"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.36862993px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#401a00;stroke-width:0.26843148">2</text>
+     aria-label="2"
+     transform="matrix(1.0145442,0,0,0.98566428,-0.17704635,0.17704635)"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.29088402px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#401a00;stroke-width:1.01454413"
+     id="text1539">
+    <path
+       d="m 27.192686,15.841892 h 6.023856 v 2.595806 h -9.451906 v -1.070027 q 0,-1.089842 0.366584,-1.951808 0.366583,-0.871874 0.921412,-1.555503 0.554829,-0.693536 1.208734,-1.218642 0.663813,-0.535013 1.258273,-0.961043 0.624182,-0.445844 1.089842,-0.852058 0.475568,-0.406214 0.792613,-0.80252 0.326953,-0.4062144 0.485475,-0.8124284 0.158523,-0.4161217 0.158523,-0.8817816 0,-0.9115046 -0.515198,-1.3771645 -0.515199,-0.4656599 -1.575318,-0.4656599 -1.832917,0 -3.507311,1.4564257 v -2.754329 q 1.852732,-1.1988266 4.181032,-1.1988266 1.079934,0 1.931993,0.2873221 0.861966,0.2774144 1.456426,0.8025203 0.594459,0.5251059 0.901597,1.2780879 0.317045,0.7430744 0.317045,1.6644866 0,0.9808581 -0.307138,1.7437478 -0.297229,0.7628896 -0.80252,1.3870726 -0.495383,0.624182 -1.149288,1.149288 -0.653906,0.515198 -1.35735,1.000673 -0.475567,0.336861 -0.921412,0.673721 -0.435937,0.326953 -0.772797,0.653906 -0.336861,0.317045 -0.535014,0.624182 -0.198153,0.307137 -0.198153,0.584552 z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.29088402px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#401a00;stroke-width:1.01454413"
+       id="path839"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>

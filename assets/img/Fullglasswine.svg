@@ -20,7 +20,7 @@
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
    id="metadata54"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
    id="defs52" /><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
@@ -38,7 +38,7 @@
    inkscape:snap-page="true"
    inkscape:bbox-nodes="true"
    inkscape:zoom="5.7142858"
-   inkscape:cx="8.0180614"
+   inkscape:cx="-29.606938"
    inkscape:cy="49.202132"
    inkscape:window-x="-8"
    inkscape:window-y="-8"
@@ -156,11 +156,12 @@
    class="st4"
    cx="28.499998"
    cy="11.500001"
-   r="11.5" /><text
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.29088402px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';opacity:1;fill:#401a00;stroke-width:1.01454413;enable-background:new;"
+   r="11.5" /><g
+   aria-label="3"
    transform="scale(1.0145442,0.98566428)"
-   class="st5 st2 st3"
-   id="text1539"
-   x="22.942301"
-   y="18.437698">3</text>
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.29088402px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';opacity:1;fill:#401a00;stroke-width:1.01454413;enable-background:new"
+   id="text1539"><path
+     d="m 24.101497,17.972038 v -2.724606 q 1.426703,1.040305 3.328973,1.040305 1.198827,0 1.86264,-0.515199 0.67372,-0.515198 0.67372,-1.43661 0,-0.951135 -0.832243,-1.466334 -0.822335,-0.515198 -2.268854,-0.515198 H 25.548015 V 9.9567429 h 1.218642 q 2.774144,0 2.774144,-1.8428244 0,-1.7338402 -2.130146,-1.7338402 -1.426703,0 -2.774145,0.9214122 V 4.7453147 q 1.496057,-0.752982 3.487496,-0.752982 2.179685,0 3.388419,0.9808582 1.218642,0.9808581 1.218642,2.5462681 0,2.784052 -2.823682,3.487496 v 0.04954 q 1.505964,0.188246 2.377837,1.09975 0.871874,0.901597 0.871874,2.219315 0,1.99144 -1.456425,3.150636 -1.456426,1.159196 -4.02251,1.159196 -2.1995,0 -3.576664,-0.713352 z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.29088402px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';opacity:1;fill:#401a00;stroke-width:1.01454413;enable-background:new"
+     id="path836" /></g>
 </svg>

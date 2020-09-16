@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -47,7 +47,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="3.7083596"
-     inkscape:cx="-47.697331"
+     inkscape:cx="-105.67445"
      inkscape:cy="40.901981"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -702,32 +702,34 @@
     </g>
   </g>
   <g
-     id="g1015"
-     transform="translate(-8.1738992,-18.432372)">
-    <g
-       id="g1740-4"
-       transform="matrix(3.7795276,0,0,3.7795276,-431.90664,-822.86668)">
-      <circle
-         style="fill:#e5c720;stroke-width:0.30427083"
-         id="path1269-7_5_-2"
-         class="st4"
-         cx="123.9786"
-         cy="225.63641"
-         r="3.0427084" />
-    </g>
-    <text
-       y="37.652706"
-       x="26.146675"
+     transform="matrix(3.7795276,0,0,3.7795276,-440.08054,-841.29905)"
+     id="g1740-4">
+    <circle
+       r="3.0427084"
+       cy="225.63641"
+       cx="123.9786"
+       class="st4"
+       id="path1269-7_5_-2"
+       style="fill:#e5c720;stroke-width:0.30427083" />
+  </g>
+  <g
+     aria-label="1"
+     transform="scale(1.0145442,0.9856643)"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.29088402px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#401a00;stroke-width:1.01454413"
+     id="text1565">
+    <path
+       d="M 26.333126,4.4276226 V 18.95225 H 23.212214 V 7.9547489 Q 22.954615,8.1826251 22.597939,8.3906859 22.251171,8.588839 21.854864,8.7572692 21.458558,8.9157918 21.032529,9.0346837 20.6065,9.1436679 20.190378,9.1932062 V 6.5577691 Q 21.40902,6.2010934 22.488955,5.6462645 23.568889,5.0914357 24.440763,4.4276226 Z"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.29088402px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#401a00;stroke-width:1.01454413"
-       transform="scale(1.0145442,0.9856643)"
-       class="st5 st2 st3"
-       id="text1565">1</text>
-    <text
-       y="34.64447"
-       x="34.951839"
+       id="path913" />
+  </g>
+  <g
+     aria-label="½"
+     transform="scale(1.0145595,0.98564943)"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.82976341px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#401a00;stroke-width:0.59148824"
+     id="text1567">
+    <path
+       d="M 28.564578,12.570401 V 8.9082577 q -0.161736,0.1270776 -0.340799,0.2252738 -0.179064,0.098196 -0.346575,0.1675113 -0.161735,0.069315 -0.294589,0.1155251 -0.132854,0.04621 -0.207945,0.063539 V 8.4230526 Q 27.617272,8.3710663 27.865651,8.2670938 28.11403,8.1631213 28.34508,8.04182 28.57613,7.9147424 28.772523,7.7876649 28.974691,7.6548111 29.113321,7.5450623 h 0.693151 v 5.0253387 z m 7.029698,-4.9098136 -5.14664,8.2831446 H 29.03823 l 5.14664,-8.2831446 z m 1.946597,8.2831446 h -3.488856 v -0.485205 q 0,-0.41589 0.155958,-0.727808 0.155959,-0.311917 0.387009,-0.548743 0.23105,-0.242603 0.502534,-0.438996 0.271484,-0.202168 0.502534,-0.392785 0.23105,-0.196392 0.387009,-0.404337 0.155959,-0.213722 0.155959,-0.490982 0,-0.242602 -0.161735,-0.36968 -0.161735,-0.132854 -0.438995,-0.132854 -0.138631,0 -0.306142,0.03466 -0.167511,0.03466 -0.335022,0.0982 -0.161735,0.06354 -0.317694,0.150183 -0.150183,0.08664 -0.259932,0.196392 v -1.120593 q 0.346576,-0.225273 0.704703,-0.306141 0.358128,-0.08664 0.73936,-0.08664 0.358128,0 0.670046,0.0982 0.311917,0.09242 0.537191,0.283036 0.23105,0.190616 0.363904,0.467876 0.132854,0.27726 0.132854,0.641164 0,0.32347 -0.150183,0.612283 -0.144406,0.288813 -0.363904,0.542968 -0.219497,0.254155 -0.473652,0.467876 -0.254156,0.213721 -0.473653,0.381233 -0.219498,0.167511 -0.36968,0.288812 -0.144406,0.121301 -0.144406,0.190616 v 0.0231 h 2.044793 z"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.82976341px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#401a00;stroke-width:0.59148824"
-       transform="scale(1.0145595,0.98564943)"
-       class="st5 st2 st3"
-       id="text1567">½</text>
+       id="path910" />
   </g>
 </svg>

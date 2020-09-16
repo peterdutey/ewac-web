@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -44,8 +44,8 @@
      inkscape:snap-nodes="false"
      inkscape:bbox-nodes="true"
      inkscape:zoom="5.7228121"
-     inkscape:cx="31.533929"
-     inkscape:cy="54.831927"
+     inkscape:cx="14.814116"
+     inkscape:cy="43.848636"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -186,25 +186,22 @@
       </g>
     </g>
   </g>
+  <circle
+     style="fill:#e5c720;stroke-width:1.14999986"
+     id="path1269-7"
+     class="st4"
+     cx="28.500002"
+     cy="11.500001"
+     r="11.5" />
   <g
-     transform="matrix(3.7795276,0,0,3.7795276,-440.88052,-793.09906)"
-     id="g1732">
-    <circle
-       r="3.0427084"
-       cy="212.8835"
-       cx="124.19026"
-       class="st4"
-       id="path1269-7"
-       style="fill:#e5c720;stroke-width:0.3042708" />
-    <g
-       aria-label="3"
-       transform="scale(1.0145442,0.98566427)"
+     id="text1523"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.36862993px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#401a00;stroke-width:0.26843148"
+     transform="matrix(3.8344978,0,0,3.7253453,-440.75696,-793.03728)"
+     aria-label="3">
+    <path
+       inkscape:connector-curvature="0"
+       id="path840"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.36862993px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#401a00;stroke-width:0.26843148"
-       id="text1523">
-      <path
-         d="m 121.24032,217.64784 v -0.72089 q 0.37748,0.27525 0.88079,0.27525 0.31719,0 0.49282,-0.13632 0.17826,-0.13631 0.17826,-0.3801 0,-0.25165 -0.2202,-0.38797 -0.21757,-0.13631 -0.6003,-0.13631 h -0.34864 v -0.63438 h 0.32243 q 0.73399,0 0.73399,-0.48758 0,-0.45874 -0.5636,-0.45874 -0.37748,0 -0.73399,0.24379 v -0.67632 q 0.39583,-0.19923 0.92273,-0.19923 0.57671,0 0.89652,0.25952 0.32243,0.25952 0.32243,0.6737 0,0.73661 -0.7471,0.92273 v 0.0131 q 0.39845,0.0498 0.62914,0.29097 0.23068,0.23855 0.23068,0.5872 0,0.5269 -0.38534,0.8336 -0.38535,0.30671 -1.06429,0.30671 -0.58195,0 -0.94633,-0.18874 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.36862993px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#401a00;stroke-width:0.26843148"
-         id="path840" />
-    </g>
+       d="m 121.24032,217.64784 v -0.72089 q 0.37748,0.27525 0.88079,0.27525 0.31719,0 0.49282,-0.13632 0.17826,-0.13631 0.17826,-0.3801 0,-0.25165 -0.2202,-0.38797 -0.21757,-0.13631 -0.6003,-0.13631 h -0.34864 v -0.63438 h 0.32243 q 0.73399,0 0.73399,-0.48758 0,-0.45874 -0.5636,-0.45874 -0.37748,0 -0.73399,0.24379 v -0.67632 q 0.39583,-0.19923 0.92273,-0.19923 0.57671,0 0.89652,0.25952 0.32243,0.25952 0.32243,0.6737 0,0.73661 -0.7471,0.92273 v 0.0131 q 0.39845,0.0498 0.62914,0.29097 0.23068,0.23855 0.23068,0.5872 0,0.5269 -0.38534,0.8336 -0.38535,0.30671 -1.06429,0.30671 -0.58195,0 -0.94633,-0.18874 z" />
   </g>
 </svg>
