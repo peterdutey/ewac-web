@@ -42,6 +42,9 @@ $site-ui-masthead-color-light: {{ site.ui.masthead.color.light | default: '#fff'
 @import 'utilities/colors';
 @import 'utilities/js';
 
+// Google Fonts
+@import url(https://fonts.googleapis.com/css?family=Hind:400,600|Roboto+Slab:300|Lora:400);
+
 #skip a
 {
   position:absolute;
@@ -115,8 +118,8 @@ div#ewac-results.d-flex div.p-2 {
 
 h2 {
   font-size: 1.5rem !important;
-  margin-top: 0 !important;
-  margin-bottom: 50px !important;
+  //margin-top: 0 !important;
+  //margin-bottom: 50px !important;
 }
 
 .btn-toolbar {

@@ -3,6 +3,7 @@ layout: page
 title: Accessibility statement
 show_in_menu: false
 permalink: /accessibility/
+disable_anchors: true
 ---
 
 
