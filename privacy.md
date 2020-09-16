@@ -20,15 +20,15 @@ Personal data is any information about you by which you can be identified.
 
 This website relies on third parties:
 
-* [Netlify](https://www.netlify.com) hosts the website
-* [Cloudflare](https://www.cloudflare.com/) provides fonts to your browser
+* [Netlify](https://www.netlify.com){:target="_blank"} hosts the website
+* [Cloudflare](https://www.cloudflare.com/){:target="_blank"} provides fonts to your browser
 
 When you access this website, these third parties automatically collect
 access logs, which includes your IP address. Netlify does not 
 store IP address for more than 30 days as stated in 
-[their own privacy notice](https://www.netlify.com/gdpr-ccpa/). 
+[their own privacy notice](https://www.netlify.com/gdpr-ccpa/){:target="_blank"}. 
 Cloudflare stores similar 'Log Data' which you 
- can read more about in their [own privacy policy](https://www.cloudflare.com/privacypolicy/). 
+ can read more about in their [own privacy policy](https://www.cloudflare.com/privacypolicy/){:target="_blank"}. 
  
 The EWAC questionnaire web app does not collect or transfer any information. It uses a client-side 
 script, meaning all calculations are done by your browser. All information
@@ -51,7 +51,7 @@ Under certain circumstances, you may have the following rights under data protec
 
 If you wish to exercise any of these rights, please contact the [Data Protection Officer](#contacting-us).
 
-Alternatively, you can contact the [UK Information Commissioner’s Office](https://ico.org.uk/).
+Alternatively, you can contact the [UK Information Commissioner’s Office](https://ico.org.uk/){:target="_blank"}.
 
 ## Contacting us 
  
