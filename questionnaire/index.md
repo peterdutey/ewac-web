@@ -1,6 +1,6 @@
 ---
 layout: calculator
-title: <span aria-label="ewac">EWAC</span> questionnaire 
+title: EWAC questionnaire 
 description: Estimate your alcohol consumption using the validated EWAC tool <span class="badge badge-warning">experimental</span>
 hide_description: true
 disable_anchors: true

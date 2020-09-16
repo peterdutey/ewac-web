@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a9c7df3-b731-4690-b48f-dfbd4c05f57a" name="Default Changelist" comment="add resources page">
+    <list default="true" id="6a9c7df3-b731-4690-b48f-dfbd4c05f57a" name="Default Changelist" comment="add travis build">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questionnaire.md" beforeDir="false" afterPath="$PROJECT_DIR$/questionnaire.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,16 +30,24 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Peter Dutey &lt;p.dutey-magni@ucl.ac.uk&gt;" />
         <option value="peterdutey &lt;46346161+peterdutey@users.noreply.github.com&gt;" />
         <option value="p.dutey-magni@ucl.ac.uk" />
       </list>
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dc-version" />
+        <entry key="$PROJECT_DIR$" value="production" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,6 +61,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -50,35 +75,66 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/questionnaire" />
+    </key>
   </component>
   <component name="RubyModuleManagerSettings">
     <option name="blackListedRootsPaths">
       <list>
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/ethon-0.12.0" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rainbow-3.0.0" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/mini_portile2-2.4.0" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/typhoeus-1.4.0" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/childprocess-3.0.0" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/selenium-webdriver-3.142.7" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/json-minify-0.0.3" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/jekyll-minifier-0.1.10" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/uglifier-4.2.0" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/yell-2.2.2" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rouge-3.18.0" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/sassc-2.3.0" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rake-13.0.1" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/json-2.3.1" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/ffi-1.12.2" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/uglifier-2.7.2" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-fsevent-0.10.3" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/mercenary-0.3.6" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/css_press-0.3.2" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-inotify-0.10.1" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/safe_yaml-1.0.5" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/public_suffix-4.0.4" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rouge-3.17.0" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/em-websocket-0.5.1" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rexml-3.2.4" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/forwardable-extended-2.6.0" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/jekyll-feed-0.13.0" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/colorator-1.1.0" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/jekyll-press-0.2.1" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/multi_css-0.1.0" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/pathutil-0.16.2" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/multi_js-0.1.0" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/jekyll-seo-tag-2.6.1" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/html_press-0.8.2" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/http_parser.rb-0.6.0" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/sassc-2.2.1" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/jekyll-4.0.0/lib/theme_template" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/htmlcompressor-0.4.0" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/terminal-table-1.8.0" />
+        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/cssminify2-2.0.1" />
       </list>
     </option>
+    <option name="shouldAskUser" value="false" />
+    <option name="shouldCreateModules" value="false" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -99,6 +155,8 @@
       <workItem from="1586332186183" duration="2659000" />
       <workItem from="1587476249463" duration="4752000" />
       <workItem from="1600098971595" duration="1285000" />
+      <workItem from="1600155535580" duration="35103000" />
+      <workItem from="1600260396716" duration="7714000" />
     </task>
     <task id="LOCAL-00001" summary="initial jekyll install">
       <created>1586096428591</created>
@@ -135,25 +193,306 @@
       <option name="project" value="LOCAL" />
       <updated>1586334549910</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="start merging DC changes">
+      <created>1600114167124</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600114167124</updated>
+    </task>
+    <task id="LOCAL-00007" summary="start merging DC changes">
+      <created>1600114234363</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600114234363</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add travis build">
+      <created>1600155693960</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600155693960</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add cibuild script">
+      <created>1600156254753</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600156254753</updated>
+    </task>
+    <task id="LOCAL-00010" summary="refactor alcohol key and questionnaire + add aria-labelled-by on alcohol key">
+      <created>1600163589125</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600163589125</updated>
+    </task>
+    <task id="LOCAL-00011" summary="first minitest browserstack">
+      <created>1600165384154</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1600165384154</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix travis">
+      <created>1600165531256</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600165531256</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix travis permission on script">
+      <created>1600165665966</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1600165665966</updated>
+    </task>
+    <task id="LOCAL-00014" summary="try browserstack test">
+      <created>1600166549526</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1600166549526</updated>
+    </task>
+    <task id="LOCAL-00015" summary="try browserstack again">
+      <created>1600170924281</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1600170924281</updated>
+    </task>
+    <task id="LOCAL-00016" summary="travis rake">
+      <created>1600171261655</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1600171261655</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add parallel and json gems">
+      <created>1600171518078</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1600171518078</updated>
+    </task>
+    <task id="LOCAL-00018" summary="install gem">
+      <created>1600172019421</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1600172019421</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update kramdown and add libcurl">
+      <created>1600172407383</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1600172407383</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add bundler to rakefile">
+      <created>1600172559189</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1600172559189</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add rake gem">
+      <created>1600172798847</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1600172798847</updated>
+    </task>
+    <task id="LOCAL-00022" summary="run rake in bundler">
+      <created>1600172999745</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1600172999745</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add test browser previous">
+      <created>1600174108058</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1600174108058</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fix ruby test">
+      <created>1600174643439</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1600174643439</updated>
+    </task>
+    <task id="LOCAL-00025" summary="fix test sleep">
+      <created>1600178834773</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1600178834773</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add further tests">
+      <created>1600179650229</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1600179650229</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add skip link, fix 404, accessibility">
+      <created>1600183548052</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1600183548052</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add minify">
+      <created>1600248757948</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1600248757948</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add minify">
+      <created>1600249246114</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1600249246114</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fixed missing trianglify background">
+      <created>1600250010491</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1600250010491</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add about page and privacy notice content, remove google font dependency">
+      <created>1600255601822</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1600255601822</updated>
+    </task>
+    <task id="LOCAL-00032" summary="finalise accessibility">
+      <created>1600270665431</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1600270665431</updated>
+    </task>
+    <task id="LOCAL-00033" summary="allow more time for selenium to load website">
+      <created>1600271734479</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1600271734479</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial jekyll install" />
-    <MESSAGE value="customise CSS and disable anchors" />
-    <MESSAGE value="add resources page" />
-    <MESSAGE value="add experimental badges" />
-    <MESSAGE value="licensing" />
-    <option name="LAST_COMMIT_MESSAGE" value="licensing" />
+    <MESSAGE value="add cibuild script" />
+    <MESSAGE value="refactor alcohol key and questionnaire + add aria-labelled-by on alcohol key" />
+    <MESSAGE value="first minitest browserstack" />
+    <MESSAGE value="fix travis" />
+    <MESSAGE value="fix travis permission on script" />
+    <MESSAGE value="try browserstack test" />
+    <MESSAGE value="try browserstack again" />
+    <MESSAGE value="travis rake" />
+    <MESSAGE value="add parallel and json gems" />
+    <MESSAGE value="install gem" />
+    <MESSAGE value="update kramdown and add libcurl" />
+    <MESSAGE value="add bundler to rakefile" />
+    <MESSAGE value="add rake gem" />
+    <MESSAGE value="run rake in bundler" />
+    <MESSAGE value="add test browser previous" />
+    <MESSAGE value="fix ruby test" />
+    <MESSAGE value="fix test sleep" />
+    <MESSAGE value="add further tests" />
+    <MESSAGE value="add skip link, fix 404, accessibility" />
+    <MESSAGE value="add travis build" />
+    <MESSAGE value="add minify" />
+    <MESSAGE value="fixed missing trianglify background" />
+    <MESSAGE value="add about page and privacy notice content, remove google font dependency" />
+    <MESSAGE value="finalise accessibility" />
+    <MESSAGE value="allow more time for selenium to load website" />
+    <option name="LAST_COMMIT_MESSAGE" value="allow more time for selenium to load website" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="378" y="407" width="513" height="209" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600099310881">
-      <screen x="0" y="0" width="1280" height="1020" />
+    <state x="1742" y="287" width="745" height="445" key="#Notifications" timestamp="1600249021187">
+      <screen x="1280" y="0" width="1680" height="1050" />
+    </state>
+    <state x="1742" y="287" width="745" height="445" key="#Notifications/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600249021187" />
+    <state x="0" y="330" width="1270" height="388" key="#Template_Data_Languages" timestamp="1600113628546">
+      <screen x="0" y="0" width="1280" height="1024" />
+    </state>
+    <state x="0" y="330" width="1270" height="388" key="#Template_Data_Languages/1280.0.1680.1050/0.0.1280.1024@0.0.1280.1024" timestamp="1600113628546" />
+    <state x="1319" y="0" width="1638" height="1020" key="CommitChangelistDialog2" timestamp="1600271734406">
+      <screen x="1280" y="0" width="1680" height="1050" />
+    </state>
+    <state x="1319" y="0" width="1638" height="1020" key="CommitChangelistDialog2/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600271734406" />
+    <state x="0" y="0" width="1068" height="1024" key="CommitChangelistDialog2/1280.0.1680.1050/0.0.1280.1024@0.0.1280.1024" timestamp="1600114234309" />
+    <state x="1380" y="99" width="1480" height="820" key="DiffContextDialog" timestamp="1600249261159">
+      <screen x="1280" y="0" width="1680" height="1050" />
+    </state>
+    <state x="1380" y="99" width="1480" height="820" key="DiffContextDialog/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600249261159" />
+    <state x="1574" y="117" width="610" height="798" key="RollbackChangesDialog" timestamp="1600267972947">
+      <screen x="1280" y="0" width="1680" height="1050" />
+    </state>
+    <state x="1574" y="117" width="610" height="798" key="RollbackChangesDialog/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600267972947" />
+    <state x="224" y="114" width="610" height="798" key="RollbackChangesDialog/1280.0.1680.1050/0.0.1280.1024@0.0.1280.1024" timestamp="1600114143993" />
+    <state x="1475" y="0" width="1280" height="1020" key="SettingsEditor" timestamp="1600165699059">
+      <screen x="1280" y="0" width="1680" height="1050" />
+    </state>
+    <state x="1475" y="0" width="1280" height="1020" key="SettingsEditor/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600165699059" />
+    <state x="1634" y="202" width="1000" height="655" key="Vcs.Push.Dialog.v2" timestamp="1600272452614">
+      <screen x="1280" y="0" width="1680" height="1050" />
+    </state>
+    <state x="1634" y="202" width="1000" height="655" key="Vcs.Push.Dialog.v2/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600272452614" />
+    <state x="270" y="197" width="1000" height="655" key="Vcs.Push.Dialog.v2/1280.0.1680.1050/0.0.1280.1024@0.0.1280.1024" timestamp="1600114245744" />
+    <state x="1380" y="99" width="1480" height="820" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600248939259">
+      <screen x="1280" y="0" width="1680" height="1050" />
+    </state>
+    <state x="1380" y="99" width="1480" height="820" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600248939259" />
+    <state x="1776" y="419" width="523" height="209" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600272439471">
+      <screen x="1280" y="0" width="1680" height="1050" />
     </state>
     <state x="378" y="407" width="513" height="209" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1280.0.1680.1050/0.0.1280.1020@0.0.1280.1020" timestamp="1600099310881" />
+    <state x="1776" y="419" width="523" height="209" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600272439471" />
+    <state x="275" y="0" width="834" height="1020" key="find.popup" timestamp="1600269406915">
+      <screen x="0" y="0" width="1280" height="1020" />
+    </state>
+    <state x="275" y="0" width="834" height="1020" key="find.popup/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600269406915" />
+    <state x="1788" y="123" width="653" height="773" key="git4idea.branch.GitSmartOperationDialog" timestamp="1600248933175">
+      <screen x="1280" y="0" width="1680" height="1050" />
+    </state>
+    <state x="1788" y="123" width="653" height="773" key="git4idea.branch.GitSmartOperationDialog/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600248933175" />
+    <state x="1700" y="227" key="run.anything.popup" timestamp="1600252321336">
+      <screen x="1280" y="0" width="1680" height="1050" />
+    </state>
+    <state x="1700" y="227" key="run.anything.popup/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600252321336" />
+    <state x="1987" y="-1" width="1103" height="1061" key="search.everywhere.popup" timestamp="1600269364548">
+      <screen x="1280" y="0" width="1680" height="1050" />
+    </state>
+    <state x="1987" y="-1" width="1103" height="1061" key="search.everywhere.popup/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600269364548" />
+    <state x="539" y="-1" width="840" height="1034" key="search.everywhere.popup/1280.0.1680.1050/0.0.1280.1024@0.0.1280.1024" timestamp="1600113905250" />
   </component>
   <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
     <option name="sizePresets">
