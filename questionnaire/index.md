@@ -1,6 +1,6 @@
 ---
 layout: calculator
-title: EWAC questionnaire 
+title: <span aria-label="ewac">EWAC</span> questionnaire 
 description: Estimate your alcohol consumption using the validated EWAC tool <span class="badge badge-warning">experimental</span>
 hide_description: true
 disable_anchors: true
@@ -51,11 +51,13 @@ disable_anchors: true
                     <div class="btn-start btn-group mr-2" role="group">
                         <button type="button" class="btn btn-primary">Start</button>
                     </div>
-                    <p class="lead notice"><strong>PLEASE NOTE:</strong> All responses to
-                        the EWAC questionnaire are
-                        anonymous and contain no personal data. No session data is stored
-                        and form responses and results
-                        are cleared on form reset or close of browser window.</p>
+                    <p class="lead notice"><strong>PRIVACY NOTE</strong> 
+                     <ul class="lead notice">
+                       <li>Responses are anonymous.</li>
+                       <li>No data are stored.</li>
+                       <li>Responses and results are cleared on form reset or close of browser window.</li>                   
+                     </ul>
+                     </p>
                 </div>
                 <div class="questionnaire_steps">
                     <div class="questionnaire_step_navigation">
@@ -245,20 +247,23 @@ disable_anchors: true
                         <div id="ewac-results" class="d-flex">
                             <div class="p-2 flex-grow-1" align="center"><span
                                     class="results_ukunits">X</span>
-                                units/week
+                                <span aria-label="units per week">units/week</span>
                             </div>
                             <div class="align-bottom"> or</div>
                             <div class="p-2 flex-grow-1" align="center"><span
-                                    class="results_grams">Y</span> g/week
+                                    class="results_grams">Y</span> <span aria-label="grams per week">g/week</span>
                             </div>
                         </div>
-                        <p class="auditc">AUDIT-C: <span class="results_auditc"></span>
-                            Points</p>
+                        <p class="auditc">AUDIT-C score: <span class="results_auditc"></span></p>
                         <div class="btn-reset btn-group mr-2" role="group">
                             <button type="button" class="btn btn-primary">Reset</button>
                         </div>
                     </div>
+                    
+                    {% include_relative alcohol_key.html %}
                 </div>
+                
+                
 
 
             </section>
