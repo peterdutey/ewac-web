@@ -32,10 +32,17 @@ There are a number of resources that may help viewing our web pages:
 * [BBC My Web My Way:](http://www.bbc.co.uk/accessibility/index.shtml) information on how to change your browser settings in Windows, Mac and Linux
 * [WebbIE free text browser:](https://www.webbie.org.uk/) for those who are blind or have visual impairments.
 
+# Browser compatibility
 
+We test for and support the following browsers:
 
- 
+* Google Chrome 
+* Mozilla Firefox 
+* Microsoft Edge 
+* Apple Safari
 
+Internet Explorer is not recommended. We only test Internet Explorer 11 (last version), 
+and we are aware some images may not display correctly on this browser.
 
 ## Technical information about this website's accessibility
 
