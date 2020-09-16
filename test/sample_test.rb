@@ -37,6 +37,7 @@ class GoogleTest < MiniTest::Test
 
   def test_parallel
     @driver.navigate.to 'http://localhost:4000/questionnaire/'
+    sleep(4)
 
     @driver.find_element(:css, ".btn-start > .btn").click
     @driver.find_element(:css, "#audit1 > .btn-group:nth-child(1) > .btn").click
