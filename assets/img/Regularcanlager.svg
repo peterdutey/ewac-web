@@ -7,12 +7,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 50.000001 100"
+   viewBox="0 0 40.000001 83"
    version="1.1"
    id="svg52"
    sodipodi:docname="Regularcanlager.svg"
-   width="50"
-   height="100"
+   width="40"
+   height="83"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata56">
@@ -46,8 +46,8 @@
      inkscape:bbox-nodes="true"
      inkscape:snap-page="true"
      inkscape:zoom="5.7223214"
-     inkscape:cx="49.601284"
-     inkscape:cy="51.197076"
+     inkscape:cx="12.02912"
+     inkscape:cy="43.083346"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -61,7 +61,7 @@
      class="cls-1"
      id="g50"
      style="isolation:isolate"
-     transform="matrix(0.83271626,0,0,0.83271626,4.8586528,2.673669)">
+     transform="matrix(0.66617301,0,0,0.66617301,3.787872,5.277595)">
     <g
        id="Layer_2"
        data-name="Layer 2">
@@ -188,22 +188,21 @@
       </g>
     </g>
   </g>
+  <circle
+     style="fill:#e5c720;stroke-width:1.14999986"
+     id="path1269-7"
+     class="st4"
+     cx="28.500002"
+     cy="11.500001"
+     r="11.5" />
   <g
-     transform="matrix(3.7795276,0,0,3.7795276,-430.88052,-793.09906)"
-     id="g1732">
-    <circle
-       r="3.0427084"
-       cy="212.8835"
-       cx="124.19026"
-       class="st4"
-       id="path1269-7"
-       style="fill:#e5c720;stroke-width:0.3042708" />
-    <text
-       y="217.77104"
-       x="120.93362"
-       id="text1523"
-       class="st5 st2 st3"
-       transform="scale(1.0145442,0.98566427)"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.36862993px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#401a00;stroke-width:0.26843148">2</text>
+     aria-label="2"
+     transform="scale(1.0145442,0.98566428)"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.29088402px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#401a00;stroke-width:1.01454413"
+     id="text1523">
+    <path
+       d="m 26.762137,15.841777 h 6.023856 v 2.595807 h -9.451906 v -1.070027 q 0,-1.089843 0.366583,-1.951809 0.366584,-0.871874 0.921412,-1.555502 0.554829,-0.693536 1.208735,-1.218642 0.663813,-0.535014 1.258272,-0.961043 0.624183,-0.445845 1.089843,-0.852059 0.475567,-0.406214 0.792612,-0.80252 0.326953,-0.4062139 0.485476,-0.8124279 0.158522,-0.4161216 0.158522,-0.8817816 0,-0.9115045 -0.515198,-1.3771644 -0.515198,-0.46566 -1.575318,-0.46566 -1.832917,0 -3.507311,1.4564258 v -2.754329 q 1.852732,-1.1988266 4.181032,-1.1988266 1.079935,0 1.931993,0.287322 0.861967,0.2774145 1.456426,0.8025204 0.59446,0.5251058 0.901597,1.2780879 0.317045,0.7430743 0.317045,1.6644865 0,0.9808582 -0.307137,1.7437479 -0.29723,0.76289 -0.802521,1.387072 -0.495383,0.624183 -1.149288,1.149288 -0.653905,0.515199 -1.357349,1.000674 -0.475568,0.33686 -0.921412,0.673721 -0.435937,0.326952 -0.772798,0.653905 -0.33686,0.317045 -0.535013,0.624183 -0.198153,0.307137 -0.198153,0.584551 z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.29088402px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#401a00;stroke-width:1.01454413"
+       id="path842" />
   </g>
 </svg>

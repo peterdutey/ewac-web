@@ -7,12 +7,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 50.000002 100"
+   viewBox="0 0 40.000002 83"
    version="1.1"
    id="svg52"
    sodipodi:docname="Superstrengthlager.svg"
-   width="50"
-   height="100"
+   width="40"
+   height="83"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata56">
@@ -44,8 +44,8 @@
      inkscape:snap-nodes="false"
      inkscape:bbox-nodes="true"
      inkscape:zoom="5.7228121"
-     inkscape:cx="69.102872"
-     inkscape:cy="33.863215"
+     inkscape:cx="31.533929"
+     inkscape:cy="54.831927"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -59,7 +59,7 @@
      class="cls-1"
      id="g50"
      style="isolation:isolate"
-     transform="matrix(0.83271046,0,0,0.83271046,5.412918,2.8559977)">
+     transform="matrix(0.66616837,0,0,0.66616837,3.8183262,5.284798)">
     <g
        id="Layer_2"
        data-name="Layer 2">
@@ -187,7 +187,7 @@
     </g>
   </g>
   <g
-     transform="matrix(3.7795276,0,0,3.7795276,-430.88052,-793.09906)"
+     transform="matrix(3.7795276,0,0,3.7795276,-440.88052,-793.09906)"
      id="g1732">
     <circle
        r="3.0427084"
@@ -196,12 +196,15 @@
        class="st4"
        id="path1269-7"
        style="fill:#e5c720;stroke-width:0.3042708" />
-    <text
-       y="217.77104"
-       x="120.93362"
-       id="text1523"
-       class="st5 st2 st3"
+    <g
+       aria-label="3"
        transform="scale(1.0145442,0.98566427)"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.36862993px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#401a00;stroke-width:0.26843148">3</text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.36862993px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#401a00;stroke-width:0.26843148"
+       id="text1523">
+      <path
+         d="m 121.24032,217.64784 v -0.72089 q 0.37748,0.27525 0.88079,0.27525 0.31719,0 0.49282,-0.13632 0.17826,-0.13631 0.17826,-0.3801 0,-0.25165 -0.2202,-0.38797 -0.21757,-0.13631 -0.6003,-0.13631 h -0.34864 v -0.63438 h 0.32243 q 0.73399,0 0.73399,-0.48758 0,-0.45874 -0.5636,-0.45874 -0.37748,0 -0.73399,0.24379 v -0.67632 q 0.39583,-0.19923 0.92273,-0.19923 0.57671,0 0.89652,0.25952 0.32243,0.25952 0.32243,0.6737 0,0.73661 -0.7471,0.92273 v 0.0131 q 0.39845,0.0498 0.62914,0.29097 0.23068,0.23855 0.23068,0.5872 0,0.5269 -0.38534,0.8336 -0.38535,0.30671 -1.06429,0.30671 -0.58195,0 -0.94633,-0.18874 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.36862993px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#401a00;stroke-width:0.26843148"
+         id="path840" />
+    </g>
   </g>
 </svg>
