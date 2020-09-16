@@ -25,9 +25,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://ewac.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  peterdutey
 
 # Build settings
 theme: jekyll-docs-theme
@@ -35,7 +34,6 @@ remote_theme: allejo/jekyll-docs-theme
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
-
 
 links:
   header:
@@ -69,7 +67,6 @@ license:
   docs: CC BY 3.0
   docs_url: https://creativecommons.org/licenses/by/3.0/
 
-
 ui:
   mode: 'light' # 'auto', 'dark', 'light'
   brand:
@@ -93,6 +90,20 @@ ui:
     align:
       homepage: 'center'
       page: 'left'
+
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
 
 # Exclude from processing.
 # The following items will not be processed, by default.

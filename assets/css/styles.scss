@@ -1,5 +1,7 @@
 ---
+layout: stylesheet
 ---
+
 
 $site-ui-mode: {{ site.ui.mode | default: 'auto' }};
 

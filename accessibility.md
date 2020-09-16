@@ -28,7 +28,6 @@ There are a number of resources that may help viewing our web pages:
 * To reduce the text size, press the keys Ctrl and - at the same time
 * [AbilityNet:](https://mcmw.abilitynet.org.uk/) advice on making your device easier to use 
 * [BBC My Web My Way:](http://www.bbc.co.uk/accessibility/index.shtml) information on how to change your browser settings in Windows, Mac and Linux
-* [Read the Words.com:](https://www.readthewords.com/) a free, web-based service that assists people with written material. You have to register for this service, but it is possible to copy the website, and have it read back with speech synthesis - text to speech - or downloaded as an MP3 file or sent by e-mail. It is also possible to upload documents for reading aloud.
 * [WebbIE free text browser:](https://www.webbie.org.uk/) for those who are blind or have visual impairments.
 
 
