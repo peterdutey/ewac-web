@@ -21,9 +21,8 @@
 name: EWAC
 email: p.dutey-magni@ucl.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The Estimator of Weekly Alcohol Consumption (EWAC) is a fast and validated new tool for assessing
+  a person's average alcohol consumption in just three questions.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ewac.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  peterdutey
@@ -57,7 +56,7 @@ links:
       url: https://github.com/peterdutey/ewac-resources/issues?state=open
     - title: Academic paper
       icon: file-alt
-      url: https://iris.ucl.ac.uk/iris/browse/profile?upi=PFDUT15
+      url: https://doi.org/10.1101/2020.12.11.20247106
 
 
 license:

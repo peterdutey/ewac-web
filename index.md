@@ -13,9 +13,9 @@ description: Estimate your alcohol consumption using a validated tool
       <h5 class="card-title">About EWAC</h5>
       <p class="card-text">The Estimator of Weekly Alcohol Consumption (EWAC) 
          is a fast and validated new tool for assessing
-         a person's average alcohol consumption.</p>
+         a person's average alcohol consumption in just three questions.</p>
          <p>It uses the world's leading
-       alcohol questionnaire: the Alcohol Use Disorder Identification Tool (AUDIT).</p>
+       alcohol questionnaire: the Alcohol Use Disorders Identification Tool (AUDIT).</p>
        <div class="read-more">
        <a href="about">More information about the EWAC</a>
         </div>

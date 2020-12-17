@@ -19,8 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a9c7df3-b731-4690-b48f-dfbd4c05f57a" name="Default Changelist" comment="add travis build">
+    <list default="true" id="6a9c7df3-b731-4690-b48f-dfbd4c05f57a" name="Default Changelist" comment="add link to manuscript, icomoon and resources">
+      <change afterPath="$PROJECT_DIR$/assets/css/custom-icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/icomoon.woff" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,12 +72,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -81,7 +92,12 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/css" />
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/questionnaire" />
     </key>
@@ -141,6 +157,19 @@
       <command value="bundle install" />
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -157,6 +186,7 @@
       <workItem from="1600098971595" duration="1285000" />
       <workItem from="1600155535580" duration="35103000" />
       <workItem from="1600260396716" duration="7714000" />
+      <workItem from="1608215544173" duration="4361000" />
     </task>
     <task id="LOCAL-00001" summary="initial jekyll install">
       <created>1586096428591</created>
@@ -408,7 +438,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add cibuild script" />
     <MESSAGE value="refactor alcohol key and questionnaire + add aria-labelled-by on alcohol key" />
     <MESSAGE value="first minitest browserstack" />
     <MESSAGE value="fix travis" />
@@ -433,66 +462,8 @@
     <MESSAGE value="add about page and privacy notice content, remove google font dependency" />
     <MESSAGE value="finalise accessibility" />
     <MESSAGE value="allow more time for selenium to load website" />
-    <option name="LAST_COMMIT_MESSAGE" value="allow more time for selenium to load website" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1742" y="287" width="745" height="445" key="#Notifications" timestamp="1600249021187">
-      <screen x="1280" y="0" width="1680" height="1050" />
-    </state>
-    <state x="1742" y="287" width="745" height="445" key="#Notifications/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600249021187" />
-    <state x="0" y="330" width="1270" height="388" key="#Template_Data_Languages" timestamp="1600113628546">
-      <screen x="0" y="0" width="1280" height="1024" />
-    </state>
-    <state x="0" y="330" width="1270" height="388" key="#Template_Data_Languages/1280.0.1680.1050/0.0.1280.1024@0.0.1280.1024" timestamp="1600113628546" />
-    <state x="1319" y="0" width="1638" height="1020" key="CommitChangelistDialog2" timestamp="1600271734406">
-      <screen x="1280" y="0" width="1680" height="1050" />
-    </state>
-    <state x="1319" y="0" width="1638" height="1020" key="CommitChangelistDialog2/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600271734406" />
-    <state x="0" y="0" width="1068" height="1024" key="CommitChangelistDialog2/1280.0.1680.1050/0.0.1280.1024@0.0.1280.1024" timestamp="1600114234309" />
-    <state x="1380" y="99" width="1480" height="820" key="DiffContextDialog" timestamp="1600249261159">
-      <screen x="1280" y="0" width="1680" height="1050" />
-    </state>
-    <state x="1380" y="99" width="1480" height="820" key="DiffContextDialog/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600249261159" />
-    <state x="1574" y="117" width="610" height="798" key="RollbackChangesDialog" timestamp="1600267972947">
-      <screen x="1280" y="0" width="1680" height="1050" />
-    </state>
-    <state x="1574" y="117" width="610" height="798" key="RollbackChangesDialog/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600267972947" />
-    <state x="224" y="114" width="610" height="798" key="RollbackChangesDialog/1280.0.1680.1050/0.0.1280.1024@0.0.1280.1024" timestamp="1600114143993" />
-    <state x="1475" y="0" width="1280" height="1020" key="SettingsEditor" timestamp="1600165699059">
-      <screen x="1280" y="0" width="1680" height="1050" />
-    </state>
-    <state x="1475" y="0" width="1280" height="1020" key="SettingsEditor/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600165699059" />
-    <state x="1634" y="202" width="1000" height="655" key="Vcs.Push.Dialog.v2" timestamp="1600272452614">
-      <screen x="1280" y="0" width="1680" height="1050" />
-    </state>
-    <state x="1634" y="202" width="1000" height="655" key="Vcs.Push.Dialog.v2/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600272452614" />
-    <state x="270" y="197" width="1000" height="655" key="Vcs.Push.Dialog.v2/1280.0.1680.1050/0.0.1280.1024@0.0.1280.1024" timestamp="1600114245744" />
-    <state x="1380" y="99" width="1480" height="820" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600248939259">
-      <screen x="1280" y="0" width="1680" height="1050" />
-    </state>
-    <state x="1380" y="99" width="1480" height="820" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600248939259" />
-    <state x="1776" y="419" width="523" height="209" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600272439471">
-      <screen x="1280" y="0" width="1680" height="1050" />
-    </state>
-    <state x="378" y="407" width="513" height="209" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1280.0.1680.1050/0.0.1280.1020@0.0.1280.1020" timestamp="1600099310881" />
-    <state x="1776" y="419" width="523" height="209" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600272439471" />
-    <state x="275" y="0" width="834" height="1020" key="find.popup" timestamp="1600269406915">
-      <screen x="0" y="0" width="1280" height="1020" />
-    </state>
-    <state x="275" y="0" width="834" height="1020" key="find.popup/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600269406915" />
-    <state x="1788" y="123" width="653" height="773" key="git4idea.branch.GitSmartOperationDialog" timestamp="1600248933175">
-      <screen x="1280" y="0" width="1680" height="1050" />
-    </state>
-    <state x="1788" y="123" width="653" height="773" key="git4idea.branch.GitSmartOperationDialog/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600248933175" />
-    <state x="1700" y="227" key="run.anything.popup" timestamp="1600252321336">
-      <screen x="1280" y="0" width="1680" height="1050" />
-    </state>
-    <state x="1700" y="227" key="run.anything.popup/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600252321336" />
-    <state x="1987" y="-1" width="1103" height="1061" key="search.everywhere.popup" timestamp="1600269364548">
-      <screen x="1280" y="0" width="1680" height="1050" />
-    </state>
-    <state x="1987" y="-1" width="1103" height="1061" key="search.everywhere.popup/1280.0.1680.1050/0.0.1280.1020@1280.0.1680.1050" timestamp="1600269364548" />
-    <state x="539" y="-1" width="840" height="1034" key="search.everywhere.popup/1280.0.1680.1050/0.0.1280.1024@0.0.1280.1024" timestamp="1600113905250" />
+    <MESSAGE value="add link to manuscript, icomoon and resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="add link to manuscript, icomoon and resources" />
   </component>
   <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
     <option name="sizePresets">
