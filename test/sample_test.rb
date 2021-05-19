@@ -51,6 +51,8 @@ class GoogleTest < MiniTest::Test
     @driver.find_element(:css, "#audit3 > .btn-group:nth-child(2) > .btn").click
     ewac_result_units = @driver.find_element(:class, "results_ukunits")
     assert_equal(ewac_result_units.text, "1 - 5")
+    ewac_result_grams = @driver.find_element(:class, "results_grams")
+    assert_equal(ewac_result_grams.text, "10 - 40")
     @driver.find_element(:css, ".btn-reset > button:nth-child(1)").click
 
     @driver.find_element(:css, ".btn-start > .btn").click
@@ -61,7 +63,9 @@ class GoogleTest < MiniTest::Test
     @driver.find_element(:css, "#audit2 > .btn-group:nth-child(2) > .btn").click
     @driver.find_element(:css, "#audit3 > .btn-group:nth-child(1) > .btn").click
     ewac_result_units = @driver.find_element(:class, "results_ukunits")
-    assert_equal(ewac_result_units.text, "0 - 3")
+    assert_equal(ewac_result_units.text, "0 - 4")
+    ewac_result_grams = @driver.find_element(:class, "results_grams")
+    assert_equal(ewac_result_grams.text, "0 - 28")
     @driver.find_element(:css, ".btn-reset > button:nth-child(1)").click
 
     @driver.find_element(:css, ".btn-start > .btn").click
@@ -73,6 +77,8 @@ class GoogleTest < MiniTest::Test
     @driver.find_element(:css, "#audit3 > .btn-group:nth-child(1) > .btn").click
     ewac_result_units = @driver.find_element(:class, "results_ukunits")
     assert_equal(ewac_result_units.text, "13 - 17")
+    ewac_result_grams = @driver.find_element(:class, "results_grams")
+    assert_equal(ewac_result_grams.text, "106 - 136")
     @driver.find_element(:css, ".btn-reset > button:nth-child(1)").click
 
     @driver.navigate.to 'http://localhost:4000/resources/'

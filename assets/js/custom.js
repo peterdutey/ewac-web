@@ -34,7 +34,7 @@ $(document).ready(function () {
             var audit3 = parseFloat($('.questionnaire_step3 button.active').attr('data-score'));
             var resultUnit = parseFloat((F * Q) + (V * 5.70345) ).toFixed(2);
             var resultGram = parseFloat(((F * Q) + (V * 5.70345)) * 8).toFixed(2);
-           var ewac_lower = Math.max(Math.round(resultGram) - 15, 0 );
+            var ewac_lower = Math.max(Math.round(resultGram) - 15, 0 );
             var ewac_upper = Math.max(Math.round(resultGram) + 15, 0);
             var ewac_units_lower = Math.max(Math.round(resultUnit) - 2,0);
             var ewac_units_upper = Math.max(Math.round(resultUnit) + 2,0);

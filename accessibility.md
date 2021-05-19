@@ -28,8 +28,7 @@ There are a number of resources that may help viewing our web pages:
 * To enlarge text, press the keys Ctrl and + at the same time
 * To return to the default size, press the keys Ctrl and 0 (zero) at the same time
 * To reduce the text size, press the keys Ctrl and - at the same time
-* [AbilityNet:](https://mcmw.abilitynet.org.uk/){:target="_blank"} advice on making your device easier to use 
-* [BBC My Web My Way:](http://www.bbc.co.uk/accessibility/index.shtml){:target="_blank"} information on how to change your browser settings in Windows, Mac and Linux
+* [AbilityNet:](https://mcmw.abilitynet.org.uk/){:target="_blank"} advice on making your device easier to use
 * [WebbIE free text browser:](https://www.webbie.org.uk/){:target="_blank"} for those who are blind or have visual impairments.
 
 ## Browser compatibility
