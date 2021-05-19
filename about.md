@@ -27,7 +27,7 @@ You can try it yourself on this website using [our EWAC Web App](/questionnaire)
 
 ## How reliable is it?
 
-A team of researchers validated <abbr title="Estimated Weekly Alcohol Consumption">EWAC</abbr> in a random sample of over 22,000 individuals aged 
+A team of researchers validated <abbr title="Estimated Weekly Alcohol Consumption">EWAC</abbr> in a random sample of over 15,000 individuals aged 
 16 years or more in England, designed to be representative of English households. 
 <abbr title="Estimated Weekly Alcohol Consumption">EWAC</abbr> was compared with a 'gold standard' alcohol interview schedule known as the 
 'Graduated-Frequency questionnaire'.

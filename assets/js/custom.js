@@ -1,4 +1,3 @@
-// Iryna's js
 $(document).ready(function () {
     var totalLength = $('.questionnaire_step').length;
     $(".progress_bar").append(new Array(++totalLength).join('<span></span>'));
@@ -11,7 +10,6 @@ $(document).ready(function () {
     });
 
     // button activity
-
     $('.questionnaire_step .btn-toolbar button').on('click', function () {
         var value = $(this).attr('data-value');
         if (value == '0') {
@@ -28,19 +26,19 @@ $(document).ready(function () {
         var nextSpan = $('.progress_bar span.active').removeClass('active').next();
         if (!nextItem.length) {
             $('.questionnaire_step').last().addClass('last');
-            var gram1 = parseFloat($('.questionnaire_step1 button.active').attr('data-gram'));
-            var gram2 = parseFloat($('.questionnaire_step2 button.active').attr('data-gram'));
-            var gram3 = parseFloat($('.questionnaire_step3 button.active').attr('data-gram'));
-            var unitC1 = parseFloat($('.questionnaire_step1 button.active').attr('data-score'));
-            var unitC2 = parseFloat($('.questionnaire_step2 button.active').attr('data-score'));
-            var unitC3 = parseFloat($('.questionnaire_step3 button.active').attr('data-score'));
-            var resultGram = parseFloat((gram1 * gram2) + gram3).toFixed(2);
-            var resultUnit = parseFloat(resultGram / 8).toFixed(2);
+            var F = parseFloat($('.questionnaire_step1 button.active').attr('data-value'));
+            var Q = parseFloat($('.questionnaire_step2 button.active').attr('data-value'));
+            var V = parseFloat($('.questionnaire_step3 button.active').attr('data-value'));
+            var audit1 = parseFloat($('.questionnaire_step1 button.active').attr('data-score'));
+            var audit2 = parseFloat($('.questionnaire_step2 button.active').attr('data-score'));
+            var audit3 = parseFloat($('.questionnaire_step3 button.active').attr('data-score'));
+            var resultUnit = parseFloat((F * Q) + (V * 5.70345) ).toFixed(2);
+            var resultGram = parseFloat(((F * Q) + (V * 5.70345)) * 8).toFixed(2);
            var ewac_lower = Math.max(Math.round(resultGram) - 15, 0 );
             var ewac_upper = Math.max(Math.round(resultGram) + 15, 0);
             var ewac_units_lower = Math.max(Math.round(resultUnit) - 2,0);
             var ewac_units_upper = Math.max(Math.round(resultUnit) + 2,0);
-            var resultCRound = parseFloat((unitC1 + unitC2 + unitC3));
+            var resultCRound = parseFloat((audit1 + audit2 + audit3));
             $('.questionnaire_results .results_ukunits').text(ewac_units_lower + " - " + ewac_units_upper);
             $('.questionnaire_results .results_grams').text(ewac_lower + " - " + ewac_upper);
             $('.questionnaire_results .results_auditc').text(resultCRound);

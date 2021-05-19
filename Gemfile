@@ -36,7 +36,7 @@ gem "jekyll-remote-theme"
 gem "html-proofer"
 
 # gem "rails"
-gem "kramdown", ">= 2.3.0"
+gem "kramdown", ">= 2.3.1"
 gem "selenium-webdriver", "~> 3.141"
 gem "minitest", "~> 5.11"
 gem "parallel", "~> 1.19.2"

@@ -79,14 +79,14 @@ disable_anchors: true
                              aria-label="AUDIT-1">
                             <div class="btn-group mr-2" role="group" aria-label="Never">
                                 <button type="button" class="btn btn-secondary"
-                                        data-value="0" data-gram="0"
+                                        data-value="0" 
                                         data-score="0">Never
                                 </button>
                             </div>
                             <div class="btn-group mr-2" role="group" aria-label="Monthly">
                                 <button type="button" class="btn btn-secondary"
-                                        data-value="0.182514395"
-                                        data-gram="0.1825144" data-score="1">
+                                        data-value="0.21084"
+                                        data-score="1">
                                     Monthly
                                     or less
                                 </button>
@@ -94,33 +94,30 @@ disable_anchors: true
                             <div class="btn-group mr-2" role="group"
                                  aria-label="2-4 per month">
                                 <button type="button" class="btn btn-secondary"
-                                        data-value="0.562226488"
-                                        data-gram="0.5622265" data-score="2">2 to
+                                        data-value="0.57864"
+                                        data-score="2">2 to
                                     4 times<br/>per month
                                 </button>
                             </div>
                             <div class="btn-group mr-2" role="group"
                                  aria-label="2-3 per week">
                                 <button type="button" class="btn btn-secondary"
-                                        data-value="1.613992322"
-                                        data-gram="1.6139923" data-score="3">2 to
-                                    3 times<br/>per week
+                                        data-value="1.64491"
+                                        data-score="3">2 to 3 times<br/>per week
                                 </button>
                             </div>
                             <div class="btn-group mr-2" role="group"
                                  aria-label="4-5 per week">
                                 <button type="button" class="btn btn-secondary"
-                                        data-value="3.325278311"
-                                        data-gram="3.3252783" data-score="4">4
-                                    to 5 times<br/>per week
+                                        data-value="3.31438"
+                                        data-score="4">4 to 5 times<br/>per week
                                 </button>
                             </div>
                             <div class="btn-group mr-2" role="group"
                                  aria-label="6+ per week">
                                 <button type="button" class="btn btn-secondary"
-                                        data-value="5.179923225"
-                                        data-gram="5.1799232" data-score="4">6
-                                    or more times<br/>per week
+                                        data-value="5.47534"
+                                        data-score="4">6 or more times<br/>per week
                                 </button>
                             </div>
                         </div>
@@ -128,61 +125,49 @@ disable_anchors: true
                     <div class="questionnaire_step questionnaire_step2">
 
                         <h2 id="how-many-units-of-alcohol-do-you-have-on-a-typical-day-when-you-are-drinking">
-                            How many
-                            units of
-                            alcohol do you have on a typical day when you are
-                            drinking?</h2>
+                            How many units of alcohol do you have on a typical day when you are drinking?</h2>
 
                         <div id="audit2" class="btn-toolbar" role="toolbar"
                              aria-label="AUDIT-2">
                             <div class="btn-group mr-2" role="group">
                                 <button type="button" class="btn btn-secondary"
-                                        data-value="0.046487524"
-                                        data-gram="19.376" data-score="0">1 to
-                                    2
+                                        data-value="2.13199"
+                                        data-score="0">1 to 2</button>
+                            </div>
+                            <div class="btn-group mr-2" role="group">
+                                <button type="button" class="btn btn-secondary"
+                                        data-value="4.35356"
+                                        data-score="1">3 to 4
                                 </button>
                             </div>
                             <div class="btn-group mr-2" role="group">
                                 <button type="button" class="btn btn-secondary"
-                                        data-value="0.083339731"
-                                        data-gram="34.736" data-score="1">3 to
-                                    4
+                                        data-value="5.60338"
+                                        data-score="2">5 to 6
                                 </button>
                             </div>
                             <div class="btn-group mr-2" role="group">
                                 <button type="button" class="btn btn-secondary"
-                                        data-value="0.112130518"
-                                        data-gram="46.736" data-score="2">5 to
-                                    6
+                                        data-value="6.95035"
+                                        data-score="3">7 to 9
                                 </button>
                             </div>
                             <div class="btn-group mr-2" role="group">
                                 <button type="button" class="btn btn-secondary"
-                                        data-value="0.132264875"
-                                        data-gram="55.128" data-score="3">7 to
-                                    9
+                                        data-value="10.18389"
+                                        data-score="4">10 to 12
                                 </button>
                             </div>
                             <div class="btn-group mr-2" role="group">
                                 <button type="button" class="btn btn-secondary"
-                                        data-value="0.185604607"
-                                        data-gram="77.36" data-score="4">10 to
-                                    12
+                                        data-value="10.85909"
+                                        data-score="4">13 to 15
                                 </button>
                             </div>
                             <div class="btn-group mr-2" role="group">
                                 <button type="button" class="btn btn-secondary"
-                                        data-value="0.186660269"
-                                        data-gram="77.8" data-score="4">13 to
-                                    15
-                                </button>
-                            </div>
-                            <div class="btn-group mr-2" role="group">
-                                <button type="button" class="btn btn-secondary"
-                                        data-value="0.342264875"
-                                        data-gram="142.656" data-score="4">16 or
-                                    more
-                                </button>
+                                        data-value="15.9719"
+                                        data-score="4">16 or more </button>
                             </div>
                         </div>
                         
@@ -201,36 +186,36 @@ disable_anchors: true
                              aria-label="AUDIT-3">
                             <div class="btn-group mr-2" role="group">
                                 <button type="button" class="btn btn-secondary"
-                                        data-value="0.542456814"
-                                        data-gram="4.339591" data-score="0">
+                                        data-value="0.12909"
+                                        data-score="0">
                                     Never
                                 </button>
                             </div>
                             <div class="btn-group mr-2" role="group">
                                 <button type="button" class="btn btn-secondary"
-                                        data-value="1.875489443"
-                                        data-gram="15.003914" data-score="1">Less
-                                    than monthly
+                                        data-value="0.34295"
+                                        data-score="1">
+                                    Less than monthly
                                 </button>
                             </div>
                             <div class="btn-group mr-2" role="group">
                                 <button type="button" class="btn btn-secondary"
-                                        data-value="3.656180422"
-                                        data-gram="29.249415" data-score="2">
+                                        data-value="0.64481"
+                                        data-score="2">
                                     Monthly
                                 </button>
                             </div>
                             <div class="btn-group mr-2" role="group">
                                 <button type="button" class="btn btn-secondary"
-                                        data-value="7.804548944"
-                                        data-gram="62.43639155" data-score="3">
+                                        data-value="1.40232"
+                                        data-score="3">
                                     Weekly
                                 </button>
                             </div>
                             <div class="btn-group mr-2" role="group">
                                 <button type="button" class="btn btn-secondary"
-                                        data-value="32.26648752"
-                                        data-gram="258.132163" data-score="4">
+                                        data-value="5"
+                                        data-score="4">
                                     Daily or almost daily
                                 </button>
                             </div>
