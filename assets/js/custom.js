@@ -32,16 +32,16 @@ $(document).ready(function () {
             var audit1 = parseFloat($('.questionnaire_step1 button.active').attr('data-score'));
             var audit2 = parseFloat($('.questionnaire_step2 button.active').attr('data-score'));
             var audit3 = parseFloat($('.questionnaire_step3 button.active').attr('data-score'));
-            var resultUnit = parseFloat((F * Q) + (V * 5.70345) ).toFixed(2);
-            var resultGram = parseFloat(((F * Q) + (V * 5.70345)) * 8).toFixed(2);
-            var ewac_lower = Math.max(Math.round(resultGram) - 15, 0 );
-            var ewac_upper = Math.max(Math.round(resultGram) + 15, 0);
-            var ewac_units_lower = Math.max(Math.round(resultUnit) - 2,0);
-            var ewac_units_upper = Math.max(Math.round(resultUnit) + 2,0);
-            var resultCRound = parseFloat((audit1 + audit2 + audit3));
+            var ewac_unit = parseFloat((F * Q) + (V * 5.70345) );
+            var ewac_gram = parseFloat(((F * Q) + (V * 5.70345)) * 8.0);
+            var ewac_units_lower = Math.round(ewac_unit * 0.5);
+            var ewac_units_upper = Math.round(ewac_unit * 1.5);
+            var ewac_gram_lower = Math.max(Math.round(ewac_gram * 0.5 / 5.0) * 5, 0 );
+            var ewac_gram_upper = Math.max(Math.round(ewac_gram * 1.5 / 5.0) * 5, 0);
+            var auditc_score = parseFloat(audit1 + audit2 + audit3);
             $('.questionnaire_results .results_ukunits').text(ewac_units_lower + " - " + ewac_units_upper);
-            $('.questionnaire_results .results_grams').text(ewac_lower + " - " + ewac_upper);
-            $('.questionnaire_results .results_auditc').text(resultCRound);
+            $('.questionnaire_results .results_grams').text(ewac_gram_lower + " - " + ewac_gram_upper);
+            $('.questionnaire_results .results_auditc').text(auditc_score);
             $('.questionnaire_steps').hide();
             $('.questionnaire_results').fadeIn();
         }

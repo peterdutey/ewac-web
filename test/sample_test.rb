@@ -46,39 +46,39 @@ class GoogleTest < MiniTest::Test
     @driver.find_element(:css, ".btn-reset > button:nth-child(1)").click
 
     @driver.find_element(:css, ".btn-start > .btn").click
-    @driver.find_element(:css, "#audit1 > .btn-group:nth-child(2) > .btn").click
-    @driver.find_element(:css, "#audit2 > .btn-group:nth-child(3) > .btn").click
-    @driver.find_element(:css, "#audit3 > .btn-group:nth-child(2) > .btn").click
+    @driver.find_element(:css, "#audit1 > .btn-group:nth-child(2) > .btn").click # Monthly or less
+    @driver.find_element(:css, "#audit2 > .btn-group:nth-child(3) > .btn").click # 5 to 6
+    @driver.find_element(:css, "#audit3 > .btn-group:nth-child(2) > .btn").click # Less than monthly
     ewac_result_units = @driver.find_element(:class, "results_ukunits")
-    assert_equal(ewac_result_units.text, "1 - 5")
+    assert_equal(ewac_result_units.text, "2 - 5")
     ewac_result_grams = @driver.find_element(:class, "results_grams")
-    assert_equal(ewac_result_grams.text, "10 - 40")
+    assert_equal(ewac_result_grams.text, "15 - 40")
     @driver.find_element(:css, ".btn-reset > button:nth-child(1)").click
 
     @driver.find_element(:css, ".btn-start > .btn").click
     @driver.find_element(:css, "#audit1 > .btn-group:nth-child(3) > .btn").click
     # press previous button
     @driver.find_element(:css, ".btn-group-prev > button:nth-child(1)").click
-    @driver.find_element(:css, "#audit1 > .btn-group:nth-child(2) > .btn").click
-    @driver.find_element(:css, "#audit2 > .btn-group:nth-child(2) > .btn").click
-    @driver.find_element(:css, "#audit3 > .btn-group:nth-child(1) > .btn").click
+    @driver.find_element(:css, "#audit1 > .btn-group:nth-child(2) > .btn").click # Monthly or less
+    @driver.find_element(:css, "#audit2 > .btn-group:nth-child(2) > .btn").click # 3 to 4
+    @driver.find_element(:css, "#audit3 > .btn-group:nth-child(1) > .btn").click # Never
     ewac_result_units = @driver.find_element(:class, "results_ukunits")
-    assert_equal(ewac_result_units.text, "0 - 4")
+    assert_equal(ewac_result_units.text, "1 - 2")
     ewac_result_grams = @driver.find_element(:class, "results_grams")
-    assert_equal(ewac_result_grams.text, "0 - 28")
+    assert_equal(ewac_result_grams.text, "5 - 20")
     @driver.find_element(:css, ".btn-reset > button:nth-child(1)").click
 
     @driver.find_element(:css, ".btn-start > .btn").click
-    @driver.find_element(:css, "#audit1 > .btn-group:nth-child(5) > .btn").click
+    @driver.find_element(:css, "#audit1 > .btn-group:nth-child(5) > .btn").click # 4 to 5 times per week
     @driver.find_element(:css, "#audit2 > .btn-group:nth-child(3) > .btn").click
     # press previous button
     @driver.find_element(:css, ".btn-group-prev > button:nth-child(1)").click
-    @driver.find_element(:css, "#audit2 > .btn-group:nth-child(2) > .btn").click
-    @driver.find_element(:css, "#audit3 > .btn-group:nth-child(1) > .btn").click
+    @driver.find_element(:css, "#audit2 > .btn-group:nth-child(2) > .btn").click # 3 to 4
+    @driver.find_element(:css, "#audit3 > .btn-group:nth-child(1) > .btn").click # Never
     ewac_result_units = @driver.find_element(:class, "results_ukunits")
-    assert_equal(ewac_result_units.text, "13 - 17")
+    assert_equal(ewac_result_units.text, "8 - 23")
     ewac_result_grams = @driver.find_element(:class, "results_grams")
-    assert_equal(ewac_result_grams.text, "106 - 136")
+    assert_equal(ewac_result_grams.text, "60 - 180")
     @driver.find_element(:css, ".btn-reset > button:nth-child(1)").click
 
     @driver.navigate.to 'http://localhost:4000/resources/'
