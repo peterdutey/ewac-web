@@ -7,8 +7,7 @@ disable_anchors: true
 ---
 
 
-This accessibility statement applies to the entire 
-<abbr title="Estimated Weekly Alcohol Consumption">EWAC</abbr> website.
+This accessibility statement applies to the entirety of the present website.
 
 This website is run by the University of Southampton. We want as many people as possible to be able to use this website. For example, that means you should be able to:
 
@@ -89,7 +88,7 @@ The Equality and Human Rights Commission (EHRC) is responsible for enforcing the
   
 ## Version history
 
-This statement was prepared on 1 September 2020 and last reviewed on 26 September 2020.
+This statement was prepared on 1 September 2020 and last reviewed on 24 September 2021.
 
-This website was last tested manually on 26 September 2020.
+This website was last tested manually on 24 September 2021.
 

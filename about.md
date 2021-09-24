@@ -19,11 +19,21 @@ items measuring
 * frequency and
 * intensity of alcohol use.
 
-This brief questionnaire is commonly used by doctors and nurses in health care services across the world.
+This questionnaire is commonly used by doctors and nurses in health care services across the world.
 
-<abbr title="Estimated Weekly Alcohol Consumption">EWAC</abbr> is calculated by adding the product of quantity by frequency to the intensity of alcohol use.
+The <abbr title="Estimated Weekly Alcohol Consumption">EWAC</abbr> is calculated by adding the product of quantity by frequency to the intensity of alcohol use.
 
-You can try it yourself on this website using [our EWAC Web App](/questionnaire).
+The result is provided both in
+* UK alcohol units (10ml or 8g of pure alcohol)
+* grams of pure alcohol
+
+Its intended purpose is to monitor health and wellbeing, as well as to provide medical education.
+
+Try it yourself using <a target="_blank"
+href= "/questionnaire"
+class="read-more">the EWAC Web App </a>
+
+
 
 ## How reliable is it?
 
@@ -31,14 +41,17 @@ A team of researchers validated <abbr title="Estimated Weekly Alcohol Consumptio
 16 years or more in England, designed to be representative of English households. 
 <abbr title="Estimated Weekly Alcohol Consumption">EWAC</abbr> was compared with a 'gold standard' alcohol interview schedule known as the 
 'Graduated-Frequency questionnaire'.
- 
-The study is currently undergoing independent review by an academic journal.
+
+The study underwent independent peer review before being published in an academic journal.
+
+<a target="_blank"
+  href= "https://doi.org/10.1111/add.15662" 
+  class="read-more">Read the study report (open access) </a>
 
 The study found that <abbr title="Estimated Weekly Alcohol Consumption">EWAC</abbr> 
-could be reliably presented as an interval of plus or minus 2 UK units (10mL or 8g of pure alcohol). 
-Such an interval contains the 'gold standard' for 50% of individuals. But it is important to know 
- that the 'gold standard' contains error of its own, so the interval will in fact be accurate for a large majority 
- of individuals.
+could be reliably presented as an interval of plus or minus 50%. Such an interval contains the 'gold standard' for 58% of individuals. 
+But it is important to know that the 'gold standard' contains error of its own, 
+so the interval will in fact be accurate for a very wide majority of individuals.
 
   
 ## Acknowledgements
